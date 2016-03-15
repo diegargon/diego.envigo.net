@@ -2,9 +2,13 @@
  Copyright @ 2016 Diego Garcia
 -->
 <?php
+#include "config/config.php";
+
 //User Config
 $user = 'diegargon';
-$token = '26cd28613f4b503c745c83bcc011bac73acda5e6';
+
+//$token = '26cd28613f4b503c745c83bcc011bac73acda5e6';
+
 //End User Config
 
 function get_readme($reponame) {
@@ -16,6 +20,7 @@ function get_readme($reponame) {
 function get_repo() {
     $curl_repo_url = 'https://api.github.com/users/' . $GLOBALS["user"] . '/repos';
     $response = curl_get($curl_repo_url);  
+    //print_r($response);
     return $response;
 }
 
@@ -29,6 +34,7 @@ function curl_get($url){
 }
 
 ?>
+<div class="blackdiv"></div>
 <div class="wrapper_w100_padding">
 
     <div class="github-card"  data-user="diegargon"></div>
@@ -36,7 +42,7 @@ function curl_get($url){
 
 
     
-<div class="github_repo">
+    <div class="github_repo">
     
 <?php
 
@@ -54,7 +60,7 @@ $response = get_repo();
   }
 ?>
    
-</div>
+    </div>
 </div>
 
 
