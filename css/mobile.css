@@ -21,10 +21,15 @@
     .btn{
         font-size: 10px;
     }
+    .github_repo {
+        max-width: 100%;
+        margin-left: 2px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .github {
             width:95%;
     }    
+
 }
