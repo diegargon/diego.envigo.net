@@ -241,15 +241,18 @@ img {
     margin-left: 10%;
     font-size:12px;
 }
-
+/*
 .github {
        
-    /* margin: auto;
-    width:50%; */
+    margin: auto; 
+    
     float:left;
-    border: 0px solid red;
+    border: 1px solid yellow;
+    
     
 }
+*/
+
 
 .github_repo {
     border: 1px solid #eee;
@@ -260,4 +263,6 @@ img {
     /* margin: auto;
     width:50%; */
     float:left;
+    margin-right: 10px;
+    margin-left: 10px;
 }

@@ -15,7 +15,7 @@ function get_readme($reponame) {
 
 function get_repo() {
     $curl_repo_url = 'https://api.github.com/users/' . $GLOBALS["user"] . '/repos';
-    $response = curl_get($curl_repo_url);
+    $response = curl_get($curl_repo_url);  
     return $response;
 }
 
@@ -30,11 +30,12 @@ function curl_get($url){
 
 ?>
 <div class="wrapper_w100_padding">
-<div class="github">
+
     <div class="github-card"  data-user="diegargon"></div>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-</div>
 
+
+    
 <div class="github_repo">
     
 <?php
@@ -55,4 +56,5 @@ $response = get_repo();
    
 </div>
 </div>
+
 
