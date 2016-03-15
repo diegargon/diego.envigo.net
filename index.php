@@ -52,9 +52,6 @@ and open the template in the editor.
         </script>
             
 
-
-        
-        
         <title>Diego García Gonzalez</title>
     </head>
     <body>
