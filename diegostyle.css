@@ -1,0 +1,305 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  
+    Created on : 13-mar-2016, 16:17:58
+    Author     : melmoth
+*/
+
+
+html 
+{
+   font-size: 1em ; 
+   /* color: #000; */
+   font-family: Georgia !important; 
+ 
+}
+
+
+body {
+     background-color: gray; 
+}
+
+
+
+
+
+.folio{
+    position:relative;
+    
+    background-color: #fff;
+    width: 80%;
+    max-width:1000px;
+    
+    margin: auto;
+    min-height: 600px;
+     
+     
+    border: 1px solid black;
+    border-radius: 25px;
+     /* overflow: hidden; */
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+
+}
+
+
+.linksmenu {
+    padding:5px;
+    border: 0px solid yellow;
+}
+
+.linksmenu a:link { color: #000 !important; }
+.linksmenu a:active { color:#C00 !important;}
+.linksmenu a:visited { color:#333 !important;}
+
+
+.profile {
+    position: relative;
+    float: left;  
+    border: 0px solid blue;
+    width:100%;
+    background-color: #040404;
+    
+    
+    
+    
+    
+    
+}
+.photo {
+    height: 250px;
+    border: 0px solid white;
+    
+    
+    float:left; 
+    z-index: 1;
+}
+.resume {
+    
+    position:relative;
+ 
+    
+    margin: 0 auto;
+    
+     border:0px solid red;
+    background-color: #040404;
+    padding-top: 50px; 
+    padding-left: 50px;
+    float:left;
+    
+    
+    color: #fff;
+    
+}
+
+#content {
+/*    position:relative;
+    float:left;
+  */  
+    border: 0px solid red;
+    /* width:40%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottombanner {
+    display: block;
+    font-family: Courier;
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+    color: #C00;
+    border: 0px solid red;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.wrapper_w100 {
+    float:left;
+    width:100%;  
+    border: 0px solid red;
+}
+.main_text {
+    position:relative;
+    float: center;
+    color: white;
+    background-color: black;
+    width: 75%;
+    height: 300px;
+ 
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.navbtn {
+  background: #bdbdbd;
+  background-image: -webkit-linear-gradient(top, #bdbdbd, #4f4f4f);
+  background-image: -moz-linear-gradient(top, #bdbdbd, #4f4f4f);
+  background-image: -ms-linear-gradient(top, #bdbdbd, #4f4f4f);
+  background-image: -o-linear-gradient(top, #bdbdbd, #4f4f4f);
+  background-image: linear-gradient(to bottom, #bdbdbd, #4f4f4f);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  text-shadow: 2px 2px 3px #000000;
+  font-family: Georgia;
+  font-weight: bold;
+  color: #fff;
+  font-size: 10px;
+  padding: 6px 14px 6px 14px;
+  text-decoration: none;
+  border: solid #000000 1px;
+}
+
+.navbtn:hover {
+  background: #4f4f4f;
+  background-image: -webkit-linear-gradient(top, #4f4f4f, #bdbdbd);
+  background-image: -moz-linear-gradient(top, #4f4f4f, #bdbdbd);
+  background-image: -ms-linear-gradient(top, #4f4f4f, #bdbdbd);
+  background-image: -o-linear-gradient(top, #4f4f4f, #bdbdbd);
+  background-image: linear-gradient(to bottom, #4f4f4f, #bdbdbd);
+  text-decoration: none;
+}
+
+.footer{
+    border: 0px solid red;
+    bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    width:100%; 
+}
+
+.github {
+       
+    margin: auto;
+    width:50%;
+    
+    
+}
+
+.maincolumn {
+    border: 0px solid red;    
+    float:left;
+    width:33%;
+    /* text-align: center; */
+    
+}
+
+.maincolumn p.col_title {
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.maincolumn p {
+
+}
+
+.maincolumn_text {
+    border: 0px solid red;
+    width: 90%;
+    margin-left: 10%;
+    font-size:12px;
+    
+    
+    
+    
+    
+}
+
+
+.unslider {
+    max-width: 750px;
+    padding-top: 10px;
+    margin: auto;
+    
+}
+
+.unslider-nav {
+
+    position: relative;
+    border: 0px solid black;
+    z-index: 1;
+    
+    
+}
+.unslider-arrow{
+    position: absolute;
+    border: 0px solid yellow;
+    left: 20px;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+.unslider-nav ol li {
+    border: 2px solid red;
+}
+.unslider-nav ol li.unslider-active {
+    background: #622d2d;
+    cursor: default;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .folio {
+           width:100%;
+           min-height: 0;
+           padding-top: 5px;
+    }
+    .photo {
+        height:200px;
+    }
+    .resume {
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .github {
+            width:95%;
+    }    
+}
