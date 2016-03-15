@@ -10,8 +10,9 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/unslider/unslider.css">
         <link rel="stylesheet" href="/unslider/unslider-dots.css">
-        <link rel="stylesheet" href="http://diego.envigo.net/diegostyle.css">
-        
+        <link rel="stylesheet" href="css/diegostyle.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/thirdparty.css">
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  -->
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>

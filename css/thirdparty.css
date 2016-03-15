@@ -1,0 +1,48 @@
+/*
+ Copyright @ 2016 Diego Garcia
+*/
+/* 
+    Created on : 15-mar-2016, 12:22:57
+    Author     : melmoth
+*/
+
+.github {
+       
+    margin: auto;
+    width:50%;
+    
+    
+}
+
+
+
+.unslider {
+    max-width: 750px;
+    padding-top: 10px;
+    margin: auto;
+    
+}
+
+.unslider-nav {
+
+    position: relative;
+    border: 0px solid black;
+    z-index: 1;
+    
+    
+}
+.unslider-arrow{
+    position: absolute;
+    border: 0px solid yellow;
+    left: 20px;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+.unslider-nav ol li {
+    border: 2px solid red;
+}
+.unslider-nav ol li.unslider-active {
+    background: #622d2d;
+    cursor: default;
+}

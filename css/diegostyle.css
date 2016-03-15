@@ -208,13 +208,7 @@ img {
     width:100%; 
 }
 
-.github {
-       
-    margin: auto;
-    width:50%;
-    
-    
-}
+
 
 .maincolumn {
     border: 0px solid red;    
@@ -243,63 +237,4 @@ img {
     
     
     
-}
-
-
-.unslider {
-    max-width: 750px;
-    padding-top: 10px;
-    margin: auto;
-    
-}
-
-.unslider-nav {
-
-    position: relative;
-    border: 0px solid black;
-    z-index: 1;
-    
-    
-}
-.unslider-arrow{
-    position: absolute;
-    border: 0px solid yellow;
-    left: 20px;
-    z-index: 2;
-    cursor: pointer;
-    
-}
-.unslider-nav ol li {
-    border: 2px solid red;
-}
-.unslider-nav ol li.unslider-active {
-    background: #622d2d;
-    cursor: default;
-}
-
-
-
-
-
-@media only screen and (max-width: 800px) {
-    .folio {
-           width:100%;
-           min-height: 0;
-           padding-top: 5px;
-    }
-    .photo {
-        height:200px;
-    }
-    .resume {
-        font-size: 10px;
-    }
-    .btn{
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .github {
-            width:95%;
-    }    
 }
