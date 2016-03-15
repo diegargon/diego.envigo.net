@@ -124,6 +124,14 @@ body {
     width:100%;  
     border: 0px solid red;
 }
+
+.wrapper_w100_padding {
+    float:left;
+    width:100%;  
+    border: 0px solid red;
+    padding: 10px;
+}
+
 .main_text {
     position:relative;
     float: center;
@@ -232,9 +240,24 @@ img {
     width: 90%;
     margin-left: 10%;
     font-size:12px;
+}
+
+.github {
+       
+    /* margin: auto;
+    width:50%; */
+    float:left;
+    border: 0px solid red;
     
-    
-    
-    
-    
+}
+
+.github_repo {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    border-color: #eee #ddd #bbb;
+    box-shadow: rgba(0,0,0,.14) 0 1px 3px;
+    padding-left: 20px;
+    /* margin: auto;
+    width:50%; */
+    float:left;
 }
