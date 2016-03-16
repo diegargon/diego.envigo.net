@@ -38,11 +38,20 @@
                 $("#BtnGitHub").click(function(){
                 $('#phrase').hide();
                 $('#content_down').hide();
-                //$('#content').load("mygithub.html");
+                
                 $('#content_up').text("Wait...");
+                
                 $('#content_up').load("git.php");
+                 
                 });
             });
+            $(document).ready(function(){
+                $("#BtnSystems").click(function(){
+                    $('#phrase').hide();
+                    $('#content_down').hide();
+                    $('#content_up').load("systems.html");
+                });
+            });            
             $(document).ready(function(){
                 $("#BtnPhotos").click(function(){
                     $('#phrase').hide();
@@ -68,11 +77,12 @@
         <div class="folio">
             
             <div class="linksmenu">
-                <button id="BtnHome" class="navbtn navbtn_first">Home</button>  
-                <button id="BtnSistemas" class="navbtn">Systems</button>  
-                <button id="BtnGitHub" class="navbtn">GitHub</button>  
+                <button id="BtnHome" class="navbtn navbtn_first homebtn"><img width="14" height="10" src="images/home.png"></button>  
+                <button id="BtnSystems" class="navbtn">Systems</button>  
                 <button id="BtnPhotos" class="navbtn">Photography</button> 
-                <button id="BtnYoutube" class="navbtn navbtn_last">Youtube</button>  
+                <button id="BtnYoutube" class="navbtn">Youtube</button>
+                <button id="BtnWebDesign" class="navbtn">Web Design</button>  
+                <button id="BtnGitHub" class="navbtn navbtn_last">GitHub</button>  
             </div>
             
             <div id="content_up"></div>
@@ -81,7 +91,7 @@
                 <div class="resume">
                     <p>Diego García Gonzalez</p>
                     <p><button id="MyEmail" class="btn">diego@envigo.net</button></p>
-                    <p>Programmer, design, systems and a little else.</p>
+                    <p>Developer, designer, systems and a little else.</p>
                 </div>
                 
                 <div class="photo">
@@ -106,9 +116,10 @@
              <div class="maincolumn">
                  <div id="col1" class="maincolumn_text">
                  <p class="col_title">WELCOME!</p>
-                 <p>Hello! I'm a developer, designer and apprentice photographer. I'm based in Vigo (Spain). 
-                     I spend my time designing webs and 3D assets developing games demos and virtual reality experiences.
-                     When i get up from the chair i enjoy walking throught the woods and the spanish coast with my dog. 
+                 <p>Hello! I'm a developer and designer. I like repairing motorcycles, make small electronic projects and recently begin 
+                     learning photography. I'm based in Vigo (Spain). 
+                     I spend my time designing 3D assets, webs,  developing games demos and virtual reality experiences.
+                     When i get up from the chair i enjoy walking throught the woods or the spanish coast with my dog and ride my motorcycle. 
                      My english ins't good enough so excuse my mistakes and hope you found something interesting in my site!
                  </p>
                  </div>

@@ -2,7 +2,9 @@
  Copyright @ 2016 Diego Garcia
 -->
 <?php
-#include "config/config.php";
+require "config/config.php";
+
+
 //$token = '26cd28613f4b503c745c83bcc011bac73acda5e6';
 //
 //User Config
