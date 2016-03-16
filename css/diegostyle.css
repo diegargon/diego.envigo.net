@@ -144,15 +144,7 @@ body {
     padding: 10px;
 }
 
-.main_text {
-    position:relative;
-    float: center;
-    color: white;
-    background-color: black;
-    width: 75%;
-    height: 300px;
- 
-}
+
 
 img {
     max-width: 100%;
@@ -166,8 +158,7 @@ img {
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+
   border-radius: 28px;
   text-shadow: 1px 1px 3px #000000;
   font-family: Arial;
@@ -259,7 +250,7 @@ img {
 .maincolumn_text {
     border: 0px solid red;
     width: 90%;
-    margin-left: 10%;
+    margin-left:  5%;
     
 }
 
@@ -287,12 +278,15 @@ img {
     border-radius: 5px;
     border-color: #eee #ddd #bbb;
     box-shadow: rgba(0,0,0,.14) 0 1px 3px;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     /* margin: auto;
     width:50%; */
     float:left;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+/*    margin-left: 10px; */
     max-width: 50%;
 }
 

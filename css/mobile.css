@@ -23,13 +23,30 @@
     }
     .github_repo {
         max-width: 100%;
-        margin-left: 2px;
+        min-width: 50%;
+    }
+    .bottombanner {
+        width: 75%;
+    }
+
+     .maincolumn {
+            float: none;
+            width: 100%;
+
+    }
+   
+    .maincolumn_text {
+        margin-left: 3%;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .github {
             width:95%;
-    }    
+    }
 
+    .bottombanner {
+        font-size: 0.8em;
+        width: 90%
+    }
 }

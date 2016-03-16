@@ -60,6 +60,13 @@
                 });
             });
             $(document).ready(function(){
+                $("#BtnMoto").click(function(){
+                    $('#phrase').hide();
+                    $('#content_down').hide();
+                    $('#content_up').load("motorcycles.html");
+                });
+            });
+            $(document).ready(function(){
                 $("#BtnYoutube").click(function(){
                     $('#phrase').hide();
                     $('#content_down').hide();
@@ -81,7 +88,8 @@
                 <button id="BtnSystems" class="navbtn">Systems</button>  
                 <button id="BtnPhotos" class="navbtn">Photography</button> 
                 <button id="BtnYoutube" class="navbtn">Youtube</button>
-                <button id="BtnWebDesign" class="navbtn">Web Design</button>  
+                <button id="BtnWebDesign" class="navbtn">Web Design</button>
+                <button id="BtnMoto" class="navbtn">Motorcycles</button>  
                 <button id="BtnGitHub" class="navbtn navbtn_last">GitHub</button>  
             </div>
             
@@ -116,7 +124,7 @@
              <div class="maincolumn">
                  <div id="col1" class="maincolumn_text">
                  <p class="col_title">WELCOME!</p>
-                 <p>Hello! I'm a developer and designer. I like repairing motorcycles, make small electronic projects and recently begin 
+                 <p>Hello! I'm a developer, system administrator (linux), and designer. I like repairing motorcycles, make small electronic projects and recently begin 
                      learning photography. I'm based in Vigo (Spain). 
                      I spend my time designing 3D assets, webs,  developing games demos and virtual reality experiences.
                      When i get up from the chair i enjoy walking throught the woods or the spanish coast with my dog and ride my motorcycle. 
@@ -129,7 +137,7 @@
                  <div id="col2" class="maincolumn_text">
                  <p class="col_title">LATEST NEWS</p>
                  <ul>
-                     <li>[14/03/2016] I begin doing this homepage</li>                 
+                     <li>[14/03/2016] I begin doing this homepage </li>                 
                  </ul>
                  </div>
              </div>
