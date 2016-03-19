@@ -22,7 +22,7 @@
     margin-right: 20px;
 /*    margin-left: 10px; */
     
-    width:100%;
+    width:60%;
 }
 
 .github_user {
@@ -41,6 +41,9 @@
 /*    margin-left: 10px; */
     max-width: 30%;
 }
+.github_user span {
+    color: #F00;
+}
 
 .github_user_top{
     float:left;
@@ -51,7 +54,7 @@
 }
 .github_user_top_avatar{
     line-height: 0;
-    border:0px solid blue;
+    border:px solid blue;
     float:left;
     margin-left:5px;
     overflow:hidden; 

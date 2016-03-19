@@ -20,9 +20,10 @@
         <link rel="stylesheet" href="css/diegostyle.css">
         <link rel="stylesheet" href="css/mobile.css">
         <link rel="stylesheet" href="css/thirdparty.css">
+        <link rel="stylesheet" href="css/octicons/octicons.css">
         <link rel="stylesheet" href="css/git.css">
 
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  -->
+        
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="/unslider/unslider-min.js"></script>
        
@@ -46,17 +47,18 @@
             
             $(document).ready(function(){
                 $("#BtnGitHub").click(function(){
-                $('#phrase').hide();
-                $('#content_down').hide();
+                    $('#loading_wrap').show();
+                    $('#phrase').hide();
+                    $('#content_down').hide();
                 
-                $('#content_up').text("Wait...");
-                
-                $('#content_up').load("git.php");
-                 
+                    /* $('#content_up').text("Wait..."); */               
+                   $('#content_up').load("git.php");
+                   
                 });
             });
             $(document).ready(function(){
                 $("#BtnSystems").click(function(){
+                    
                     $('#phrase').hide();
                     $('#content_down').hide();
                     $('#content_up').load("systems.html");
@@ -91,6 +93,7 @@
     </head>
     <body>
         
+        
         <div class="folio">
             
             <div class="linksmenu">
@@ -102,8 +105,11 @@
                 <button id="BtnMoto" class="navbtn">Motorcycles</button>  
                 <button id="BtnGitHub" class="navbtn navbtn_last">GitHub</button>  
             </div>
+            <div id='loading_wrap' class="loading"></div>   
+            <div id="content_up">
+                              
+            </div>
             
-            <div id="content_up"></div>
             
             <div class="profile">
                 <div class="resume">

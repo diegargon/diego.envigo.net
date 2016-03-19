@@ -4,10 +4,11 @@
 -->
 
 <?php
+/*
 if($_SERVER['PHP_SELF'] == '/' . basename(__FILE__)) {
         exit();
 }
-
+*/
 require "config/gittoken.conf.php"; // <-- $token = '26cd28613f4b503c745c83bcc011bac73acda5e6'; 
 require "include/git.inc.php";
 
@@ -16,6 +17,8 @@ $user = 'diegargon';
 //End User Config
  
 ?>
+
+
 <div class="blackdiv"></div>
 <div class="wrapper_w100_padding"> 
     <div class="github_user">
@@ -28,10 +31,10 @@ $user = 'diegargon';
         
         echo "<div class='github_user_middle_details'>";
         echo "<ul>";
-        echo "<li>Company: $user_info->company</li>";
-        echo "<li>Location: $user_info->location</li>";
-        echo "<li>Web: <a href='$user_info->blog'>$user_info->blog</a></li>";
-        echo "<li>Email:<a href='mailto:$user_info->email'>$user_info->email</a></li>";        
+        echo "<li> <span class='octicon octicon-organization'></span>&nbsp; $user_info->company</li>";
+        echo "<li><span class='octicon octicon-location'></span>&nbsp; $user_info->location</li>";
+        echo "<li><span class='octicon octicon-link'></span>&nbsp; <a href='$user_info->blog'>$user_info->blog</a></li>";
+        echo "<li><span class='octicon octicon-mail'></span>&nbsp; <a href='mailto:$user_info->email'>$user_info->email</a></li>";        
         echo "</ul>";
         echo "</div>";
         
@@ -69,5 +72,5 @@ $response = get_repos();
    
     </div>
 </div>
-
+<script type="text/javascript">$('#loading_wrap').remove();</script>
 
