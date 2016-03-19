@@ -16,3 +16,4 @@
     *.war
     *.ear
 /config/config.php
+/config/gittoken.conf.php

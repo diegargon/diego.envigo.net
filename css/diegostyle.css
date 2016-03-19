@@ -273,23 +273,6 @@ img {
    padding-right: 7px; 
 }
 
-.github_repo {
-    border: 1px solid #eee;
-    border-radius: 5px;
-    border-color: #eee #ddd #bbb;
-    box-shadow: rgba(0,0,0,.14) 0 1px 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    /* margin: auto;
-    width:50%; */
-    float:left;
-    margin-right: 20px;
-/*    margin-left: 10px; */
-    max-width: 50%;
-}
-
 .youtube-video {
     margin: 0px auto;
     margin-right: 20px;
