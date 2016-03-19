@@ -1,12 +1,14 @@
+<!--
+ Copyright @ 2016 Diego Garcia
+-->
+
+
 <?php
 
 
 ?>
  
 <!DOCTYPE html>
-<!--
- Copyright @ 2016 Diego Garcia
--->
 
 
 <html>
