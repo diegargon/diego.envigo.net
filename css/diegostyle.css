@@ -59,7 +59,7 @@ body {
 
 
 .profile {
-    position: relative;
+    /* position: relative; */
     float: left;  
     border: 0px solid blue;
     width:100%;
@@ -77,11 +77,11 @@ body {
     
     
     float:left; 
-    z-index: 1; 
+    /* z-index: 1;  */
 }
 .resume {
     
-    position:relative;
+    /* position:relative; */
  
     
     margin: 0 auto;

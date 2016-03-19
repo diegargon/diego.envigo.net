@@ -72,5 +72,5 @@ $response = get_repos();
    
     </div>
 </div>
-<script type="text/javascript">$('#loading_wrap').remove();</script>
+<script type="text/javascript">$('#loading_wrap').hide();</script>
 

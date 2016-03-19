@@ -95,7 +95,7 @@
         
         
         <div class="folio">
-            
+            <div id='loading_wrap' class="loading"></div>   
             <div class="linksmenu">
                 <button id="BtnHome" class="navbtn navbtn_first homebtn"><img width="14" height="10" src="images/home.png"></button>  
                 <button id="BtnSystems" class="navbtn">Systems</button>  
@@ -105,7 +105,7 @@
                 <button id="BtnMoto" class="navbtn">Motorcycles</button>  
                 <button id="BtnGitHub" class="navbtn navbtn_last">GitHub</button>  
             </div>
-            <div id='loading_wrap' class="loading"></div>   
+            
             <div id="content_up">
                               
             </div>
