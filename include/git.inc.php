@@ -2,10 +2,6 @@
 /* 
  *  Copyright @ 2016 Diego Garcia
  */
-
- 
-
-
 if($_SERVER['PHP_SELF'] == '/' . basename(__FILE__)) {
         exit();
 }

@@ -4,8 +4,11 @@
 -->
 
 <?php
-require "config/gittoken.conf.php"; // <-- $token = '26cd28613f4b503c745c83bcc011bac73acda5e6'; 
+if($_SERVER['PHP_SELF'] == '/' . basename(__FILE__)) {
+        exit();
+}
 
+require "config/gittoken.conf.php"; // <-- $token = '26cd28613f4b503c745c83bcc011bac73acda5e6'; 
 require "include/git.inc.php";
 
 //User Config
