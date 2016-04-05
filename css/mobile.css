@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 800px) {
     .folio {
-           width:100%;
+           width:90%;
            min-height: 0;
            padding-top: 5px;
     }
@@ -21,10 +21,7 @@
     .btn{
         font-size: 10px;
     }
-    .github_repo {
-        max-width: 100%;
-        min-width: 50%;
-    }
+    
     .bottombanner {
         width: 75%;
     }
@@ -44,6 +41,10 @@
     .github {
             width:95%;
     }
+    .folio {
+        width: 100%;
+    }
+
 
     .bottombanner {
         font-size: 0.8em;

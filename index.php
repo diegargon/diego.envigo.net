@@ -17,12 +17,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/unslider/unslider.css">
         <link rel="stylesheet" href="/unslider/unslider-dots.css">
-        <link rel="stylesheet" href="css/diegostyle.css">
-        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/diegostyle.css">        
         <link rel="stylesheet" href="css/thirdparty.css">
         <link rel="stylesheet" href="css/octicons/octicons.css">
         <link rel="stylesheet" href="css/git.css">
-
+        <link rel="stylesheet" href="css/mobile.css">
         
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="/unslider/unslider-min.js"></script>
@@ -79,6 +78,13 @@
                 });
             });
             $(document).ready(function(){
+                $("#BtnWorking").click(function(){
+                    $('#phrase').hide();
+                    $('#content_down').hide();
+                    $('#content_up').load("working.html");
+                });
+            });
+            $(document).ready(function(){
                 $("#BtnYoutube").click(function(){
                     $('#phrase').hide();
                     $('#content_down').hide();
@@ -98,11 +104,12 @@
             <div id='loading_wrap' class="loading"></div>   
             <div class="linksmenu">
                 <button id="BtnHome" class="navbtn navbtn_first homebtn"><img width="14" height="10" src="images/home.png"></button>  
-                <button id="BtnSystems" class="navbtn">Systems</button>  
-                <button id="BtnPhotos" class="navbtn">Photography</button> 
+                <button id="BtnSystems" class="navbtn">Sistemas</button>  
+                <button id="BtnPhotos" class="navbtn">Fotografia</button> 
                 <button id="BtnYoutube" class="navbtn">Youtube</button>
-                <button id="BtnWebDesign" class="navbtn">Web Design</button>
-                <button id="BtnMoto" class="navbtn">Motorcycles</button>  
+                <button id="BtnWorking" class="navbtn">Trabajando en...</button>
+                <!-- <button id="BtnWebDesign" class="navbtn">Web </button> -->
+                <!-- <button id="BtnMoto" class="navbtn">Motorcycles</button>  -->
                 <button id="BtnGitHub" class="navbtn navbtn_last">GitHub</button>  
             </div>
             
@@ -139,8 +146,14 @@
          <div class="wrapper_w100">
              <div class="maincolumn">
                  <div id="col1" class="maincolumn_text">
-                 <p class="col_title">WELCOME!</p>
-                 <p>Hello! I'm a developer, system administrator (linux), and designer. I like repairing motorcycles, make small electronic projects and recently begin 
+                 <p class="col_title">Bienvenido!</p>
+                 <p>Buenas. Soy desarrollador, administrador de sistemas (linux) y diseñador. Me gusta reparar motocicletas y realizar pequeños proyectos 
+                     electrónicos, recientemente también comencé a interesarme por la fotografía. Vivo en Vigo (España). Mi tiempo va en diseñar 3D assets, 
+                     webs y desarrollar con Unreal Engine (juegos, y realidad virtual), o atreverme con cualquier tecnología. Cuando me levanto de la silla, 
+                     me gusta caminar por los montes y la costa con mi perro o conducir mi Speed Triple.
+                 </p>
+                 <p>
+                     Hello! I'm a developer, system administrator (linux), and designer. I like repairing motorcycles, make small electronic projects and recently begin 
                      learning photography. I'm based in Vigo (Spain). 
                      I spend my time designing 3D assets, webs,  developing games demos and virtual reality experiences.
                      When i get up from the chair i enjoy walking throught the woods or the spanish coast with my dog and ride my motorcycle. 
@@ -153,7 +166,7 @@
                  <div id="col2" class="maincolumn_text">
                  <p class="col_title">LATEST NEWS</p>
                  <ul>
-                     <li>[14/03/2016] I begin doing this homepage </li>                 
+                     <li>[14/03/2016] Reconstruyendo mi pagina web. Descarte todo lo antiguo por lo que el contenido sera minimo de momento.</li>                 
                  </ul>
                  </div>
              </div>
