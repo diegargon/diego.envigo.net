@@ -24,9 +24,10 @@ $user = 'diegargon';
     <div class="github_user">
     <?php
         $user_info = get_user($user);
+        //print_r($user_info);
         echo "<div class='github_user_top'>";
         echo "<div class='github_user_top_avatar'><img src='$user_info->avatar_url'></div>";
-        echo "<div class='github_user_top_name'><a href='$user_info->html_url'>$user_info->name</a><br/>@$user_info->login</div>";
+        echo "<div class='github_user_top_name'><a href='$user_info->html_url' target=_blank>$user_info->name</a><br/>@$user_info->login</div>";
         echo "</div>";
         
         echo "<div class='github_user_middle_details'>";
@@ -39,9 +40,9 @@ $user = 'diegargon';
         echo "</div>";
         
         echo "<div class='github_user_bottom_details'>";
-        echo "<a  href='$user_info->repos_url'><strong>$user_info->public_repos</strong><span>Repos</span></a>";
-        echo "<a  href='$user_info->gist_url'><strong>$user_info->public_gists</strong><span>Gist</span></a>";
-        echo "<a  href='$user_info->followers_url'><strong>$user_info->followers</strong><span>Followers</span></a>";
+        echo "<a  href='https://github.com/diegargon' target=_blank><strong>$user_info->public_repos</strong><span>Repos</span></a>";
+        echo "<a  href='https://gist.github.com/$user' target=_blank><strong>$user_info->public_gists</strong><span>Gist</span></a>";
+        echo "<a  href='https://github.com/$user/following' target=_blank><strong>$user_info->followers</strong><span>Followers</span></a>";
         echo "</div>";
     ?>
     </div>
