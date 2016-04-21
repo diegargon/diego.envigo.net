@@ -25,9 +25,9 @@ body {
 
 
 .folio{
-    position:relative;
+    
     background-color: #fff;
-    width: 80%;
+    width: 100%;
     max-width:1000px;
     margin: auto;
     min-height: 600px;
@@ -37,9 +37,14 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 25px;
-
+    float:left;
 }
 
+.wrap_center {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
 
 .linksmenu {
     padding:5px;
@@ -47,9 +52,9 @@ body {
     text-align: center;
 }
 
-.linksmenu a:link { color: #000 !important; }
+.linksmenu a:link { color: #fff !important; }
 .linksmenu a:active { color:#C00 !important;}
-.linksmenu a:visited { color:#333 !important;}
+.linksmenu a:visited { color:#fff !important;}
 
 
 .profile {
@@ -80,7 +85,8 @@ body {
 }
 
 #content_down {
-    border: 0px solid red;
+    
+    border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,14 +108,15 @@ body {
 .wrapper_w100 {
     float:left;
     width:100%;  
-    border: 0px solid red;
+    border: 0px solid blue;
 }
 
 .wrapper_w100_padding {
     float:left;
-    width:100%;  
-    border: 0px solid red;
+    width:95%;  
+    border: 0px solid blue;
     padding: 10px;
+    
 }
 
 
@@ -165,6 +172,7 @@ img {
   border: solid #000000 1px;
   margin: -3px
 }
+
 
 .navbtn_first {
       border-radius:  5px 0px 0px 5px;
@@ -273,4 +281,19 @@ img {
 
 .workingon {
     font-size: 0.8em;
+}
+
+.gen_article {
+    border: 0px solid red;
+    float:left;
+    margin:0 auto;
+}
+.gen_article h1 {
+        font-size:19px;
+}
+.gen_article h2{
+    font-size: 14px;
+}
+.gen_article p{
+    font-size: 13px;
 }

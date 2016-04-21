@@ -1,9 +1,6 @@
-<!--
- Copyright @ 2016 Diego Garcia
- V:0.001
--->
-
 <?php
+include("include/head.inc.php");
+
 /*
 if($_SERVER['PHP_SELF'] == '/' . basename(__FILE__)) {
         exit();
@@ -75,3 +72,7 @@ $response = get_repos();
 </div>
 <script type="text/javascript">$('#loading_wrap').hide();</script>
 
+<?php
+include("include/profilebanner.inc.php");
+
+include("include/footer.inc.php");

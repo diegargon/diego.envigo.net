@@ -5,134 +5,15 @@
 
 <?php
 
-
+include("include/head.inc.php");
+include("include/profilebanner.inc.php");
 ?>
  
-<!DOCTYPE html>
 
-
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/unslider/unslider.css">
-        <link rel="stylesheet" href="/unslider/unslider-dots.css">
-        <link rel="stylesheet" href="css/diegostyle.css">        
-        <link rel="stylesheet" href="css/thirdparty.css">
-        <link rel="stylesheet" href="css/octicons/octicons.css">
-        <link rel="stylesheet" href="css/git.css">
-        <link rel="stylesheet" href="css/mobile.css">
-        
-        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="/unslider/unslider-min.js"></script>
-       
-       
-        <script>
-            /* Button mail */
-            $(document).ready(function(){
-                $("#MyEmail").click(function(){
-                    window.location.href = "mailto:diego@envigo.net?subject=Personal%20Webpage&body=";
-                
-                });
-            });
-
-            /* Navigation Buttons */
-
-            $(document).ready(function(){
-                $("#BtnHome").click(function(){
-                    window.location='http://diego.envigo.net';
-                });
-            });
-            
-            $(document).ready(function(){
-                $("#BtnGitHub").click(function(){
-                    $('#loading_wrap').show();
-                    $('#phrase').hide();
-                    $('#content_down').hide();
-                
-                    /* $('#content_up').text("Wait..."); */               
-                   $('#content_up').load("git.php");
-                   
-                });
-            });
-            $(document).ready(function(){
-                $("#BtnSystems").click(function(){
-                    
-                    $('#phrase').hide();
-                    $('#content_down').hide();
-                    $('#content_up').load("systems.html");
-                });
-            });            
-            $(document).ready(function(){
-                $("#BtnPhotos").click(function(){
-                    $('#phrase').hide();
-                    $('#content_down').hide();
-                    $('#content_up').load("unslider.html");
-                });
-            });
-            $(document).ready(function(){
-                $("#BtnMoto").click(function(){
-                    $('#phrase').hide();
-                    $('#content_down').hide();
-                    $('#content_up').load("motorcycles.html");
-                });
-            });
-            $(document).ready(function(){
-                $("#BtnWorking").click(function(){
-                    $('#phrase').hide();
-                    $('#content_down').hide();
-                    $('#content_up').load("working.html");
-                });
-            });
-            $(document).ready(function(){
-                $("#BtnYoutube").click(function(){
-                    $('#phrase').hide();
-                    $('#content_down').hide();
-                    $('#content_up').load("Youtube.html");
-                });
-            });
-            
-        </script>
             
 
-        <title>Diego García Gonzalez</title>
-    </head>
-    <body>
-        
-        
-        <div class="folio">
-            <div id='loading_wrap' class="loading"></div>   
-            <div class="linksmenu">
-                <button id="BtnHome" class="navbtn navbtn_first homebtn"><img width="14" height="10" src="images/home.png"></button>  
-                <button id="BtnSystems" class="navbtn">Sistemas</button>  
-                <button id="BtnPhotos" class="navbtn">Fotografia</button> 
-                <button id="BtnYoutube" class="navbtn">Youtube</button>
-                <button id="BtnWorking" class="navbtn">Trabajando en...</button>
-                <!-- <button id="BtnWebDesign" class="navbtn">Web </button> -->
-                <!-- <button id="BtnMoto" class="navbtn">Motorcycles</button>  -->
-                <button id="BtnGitHub" class="navbtn navbtn_last">GitHub</button>  
-            </div>
-            
-            <div id="content_up">
-                              
-            </div>
-            
-            
-            <div class="profile">
-                <div class="resume">
-                    <p>Diego García Gonzalez</p>
-                    <p><button id="MyEmail" class="btn">diego@envigo.net</button></p>
-                    <p>Developer, designer, systems and a little else.</p>
-                </div>
-                
-                <div class="photo">
-                <img alt="Diego García Gonzalez"  src="images/Mifoto_Desktop.png">
-                </div>
-            </div>
 
-  <!-- 
-        <div class="main_text"><br/>Diego García Gonzalez</div>
-     -->
+
      <div id="phrase" class="wrapper_w100">
          <div class="bottombanner">
              <p>“In expanding the field of knowledge we but increase the horizon of ignorance.”
@@ -166,7 +47,8 @@
                  <div id="col2" class="maincolumn_text">
                  <p class="col_title">LATEST NEWS</p>
                  <ul>
-                     <li>[14/03/2016] Reconstruyendo mi pagina web. Descarte todo lo antiguo por lo que el contenido sera minimo de momento.</li>                 
+                     <li>[21/04/2016] Atareado con los proyectos ya hace un mes que rehíce esta web sin añadir mucho hasta hoy que añado la sección IoT</li>                 
+                     <li>[14/03/2016] Reconstruyendo mi página web. Descarte todo lo antiguo por lo que el contenido será mínimo de momento.</li>                 
                  </ul>
                  </div>
              </div>
@@ -183,14 +65,7 @@
         </div>
          
      </div>
-     <div class="footer">
-         <br/> 
-         <p>Copyright @ 2016 Diego García</p>
-     </div>
-        
-        </div>
-
-    </body>
-</html>
-
+<?php
+include("include/footer.inc.php");
+?>
 

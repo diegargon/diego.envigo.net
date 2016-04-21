@@ -1,3 +1,12 @@
+<?php
+
+/* 
+ *  Copyright @ 2016 Diego Garcia
+ */
+
+include("include/head.inc.php");
+?>
+
 <div class="blackdiv"></div>
 <div class="wrapper_w100_padding">
     <div class=''>Actualmente estoy trabajando en...    </div>
@@ -11,7 +20,7 @@
                 <p>Cliente: Proyecto Propio<p>
                 <p>Acceso Fuente: Publico/Github/Parcialmente</p>
                 <p>Prioridad: Baja.</p>
-                <p>Estado: Inició/Preparación</p>
+                <p>Estado: En proceso</p>
             </li>  
             <li><b>Proyecto Base</b>
                 Un proyecto sin todavía nombre de un CMS para facilitarme programar webs sin utilizar los CMS comunes, entre las características que tendrá estan
@@ -46,7 +55,7 @@
                 <p>Cliente: Privado<p>
                 <p>Acceso Fuente: Publico/GitHub</p>
                 <p>Prioridad: Baja.</p>
-                <p>Estado: En preparación</p>          
+                <p>Estado: Medio</p>          
             </li>                
             <li><b>Juego MMORPG, multiplayer </b>
                 El objetivo es una plantilla básica para juegos tipo MMORPG, el mundo es persisten por lo que se utiliza una base de datos para 
@@ -55,7 +64,7 @@
                 <p>Cliente: Proyecto Propio<p>
                 <p>Acceso Fuente: Por determinar</p>
                 <p>Prioridad: Baja.</p>
-                <p>Estado: En proceso</p>
+                <p>Estado: En proceso/PAUSADO</p>
 
             </li>     
             <li><b>Modificar diseño de una página web (foro)</b><br/>
@@ -102,5 +111,12 @@
         </ul>
     </div>
 </div>
+
+
+<?php
+
+include("include/profilebanner.inc.php");
+
+include("include/footer.inc.php");
 
 
