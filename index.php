@@ -1,9 +1,7 @@
-<!--
- Copyright @ 2016 Diego Garcia
--->
-
-
 <?php
+
+// Copyright @ 2016 Diego Garcia
+
 
 include("include/head.inc.php");
 include("include/profilebanner.inc.php");
