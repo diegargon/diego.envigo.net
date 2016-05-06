@@ -11,6 +11,7 @@ require "include/git.inc.php";
 
 //User Config
 $user = 'diegargon';
+$max_readme_chars = "200";
 //End User Config
  
 $curl_token = 'Authorization: token ' . $token;
@@ -56,6 +57,9 @@ $response = get_repos();
     
     foreach ($response as $repo) {
       $readme_content = get_readme($repo->name);
+      if (strlen($readme_content) > $max_readme_chars) {
+          $readme_content = substr($readme_content, 0, $max_readme_chars) ."...";
+      }
       print '<b>Project</b>: <a href="' . $repo->html_url . '" target="_blank">' . $repo->name . '</a><br />';      
       print '<div class="github_readme">';
       print '<p>Readme:</p>';
