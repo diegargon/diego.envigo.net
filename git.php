@@ -13,6 +13,7 @@ require "include/git.inc.php";
 $user = 'diegargon';
 //End User Config
  
+$curl_token = 'Authorization: token ' . $token;
 ?>
 
 
@@ -48,7 +49,6 @@ $user = 'diegargon';
     
 <?php
 
-$curl_token = 'Authorization: token ' . $token;
 
 $response = get_repos();
 
