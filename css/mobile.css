@@ -40,7 +40,10 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 564px) {
+
+}
+@media only screen and (max-width: 510px) {
     .github {
             width:95%;
     }
@@ -56,4 +59,15 @@
     .wrap_center {
         width:100%;
     }
+
+    .navbtn{
+        font-size: 14px;
+    }
+    .navbtn_first {
+        border-radius: 0px;
+    }
+    .navbtn_last {
+        border-radius: 0px;        
+    }
+    
 }
