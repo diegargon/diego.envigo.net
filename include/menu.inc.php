@@ -6,7 +6,7 @@
 ?>
             <div class="linksmenu">
                 
-                <a href="/index.php" class="navbtn navbtn_first homebtn"><img width="14" height="10" src="images/home.png"></a>
+                <a href="/index.php" class="navbtn navbtn_first homebtn"><img width="14" height="10" src="images/home.png" alt="home"></a>
                 <!-- <button id="BtnSystems" class="navbtn">Sistemas</button>  -->
                 
                 <a href="/iot.php" class="navbtn">IoT</a>
