@@ -45,8 +45,9 @@ include("include/profilebanner.inc.php");
              </div>
              <div class="maincolumn">
                  <div id="col2" class="maincolumn_text">
-                 <p class="col_title">LATEST NEWS</p>
+                 <p class="col_title">Ultimas noticias</p>
                  <ul>
+                     <li>[05/05/2016] Actualizado apartado IoT
                      <li>[21/04/2016] Atareado con los proyectos ya hace un mes que rehíce esta web sin añadir mucho hasta hoy que añado la sección IoT</li>                 
                      <li>[14/03/2016] Reconstruyendo mi página web. Descarte todo lo antiguo por lo que el contenido será mínimo de momento.</li>                 
                  </ul>
@@ -54,11 +55,11 @@ include("include/profilebanner.inc.php");
              </div>
             <div  class="maincolumn">
                 <div id="col3" class="maincolumn_text">
-                 <p class="col_title">LATEST LINKS I ENJOY</p>
+                 <p class="col_title">Ultima lectura recomendada</p>
                  <ul>
-                     <li><a href="https://github.com/ssloy/tinyrenderer/wiki">How OpenGL works</a></li>
-                     <li><a href="http://buildnewgames.com/gamephysics/">How Physics engine works</a></li>
-                     <li><a href=""></a></li>
+                     <li><a rel="nofollow" href="https://github.com/ssloy/tinyrenderer/wiki">How OpenGL works</a></li>
+                     <li><a rel="nofollow" href="http://buildnewgames.com/gamephysics/">How Physics engine works</a></li>
+                     <li><a rel="nofollow" href=""></a></li>
                  </ul>                         
                 </div>
              </div>

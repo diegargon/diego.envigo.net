@@ -289,11 +289,20 @@ img {
     margin:0 auto;
 }
 .gen_article h1 {
-        font-size:19px;
+        font-size:23px;
 }
 .gen_article h2{
-    font-size: 14px;
+    font-size: 17px;
 }
 .gen_article p{
-    font-size: 13px;
+    font-size: 15px;
+}
+
+.code {
+    color: #fff;
+    background-color: #000;
+    padding: 4px;
+    border: 1px solid gray;
+    box-shadow: 0 0 4px 2px #000;
+    border-radius: 5px;
 }

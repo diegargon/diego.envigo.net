@@ -14,16 +14,16 @@ include("include/head.inc.php");
     <div class='workingon'>
         <ul>
 
-            <li><b>IOT</b>
-                Iniciando un proyecto personal para IOT (Internet de las cosas), en principio vía standard WIFI (2.4ghz)  <br/>
-                Herramientas: C, Lua Language, Electrónica
+            <li><b>IoT</b>
+                Iniciando un proyecto personal para IoT (Internet de las cosas), en principio vía standard WIFI (2.4ghz)  <br/>
+                Herramientas: C, Lua Language, Electrónica, Linux Embed, OpenWrt, html, uhttpd (estimadas)
                 <p>Cliente: Proyecto Propio<p>
-                <p>Acceso Fuente: Publico/Github/Parcialmente</p>
+                <p>Acceso Fuente: Publico/Github/Parcialmente/Anotaciones en página web</p>
                 <p>Prioridad: Baja.</p>
                 <p>Estado: En proceso</p>
             </li>  
             <li><b>Proyecto Base</b>
-                Un proyecto sin todavía nombre de un CMS para facilitarme programar webs sin utilizar los CMS comunes, entre las características que tendrá estan
+                Un proyecto (nombre temporal) de un CMS para facilitarme programar webs sin utilizar los CMS comunes, entre las características que tendrá están
                 plugins/modulos, themes, y otros.
                 <br/> 
                 Herramientas: Netbeans, PHP, MySQL, JS/JQuery, CSS, HTML5
@@ -50,17 +50,17 @@ include("include/head.inc.php");
                 <p>Estado: En proceso</p>
             </li>                
             <li><b>Aplicación Android para acceso a página web</b>
-                Aplicación simple para acceso web desde un movil android.<br/>
+                Aplicación simple para acceso web desde un móvil android.<br/>
                 Herramientas: Android Studio
                 <p>Cliente: Privado<p>
                 <p>Acceso Fuente: Publico/GitHub</p>
-                <p>Prioridad: Baja.</p>
+                <p>Prioridad: Media.</p>
                 <p>Estado: Medio</p>          
             </li>                
             <li><b>Juego MMORPG, multiplayer </b>
-                El objetivo es una plantilla básica para juegos tipo MMORPG, el mundo es persisten por lo que se utiliza una base de datos para 
+                El objetivo es una plantilla básica para juegos tipo MMORPG, el mundo es persistente por lo que se utiliza una base de datos para 
                 almacenar todos los datos persistentes  <br/>
-                Herramientas: Unreal Engine, C++, Bluerpints, PHP, MySQL, Linux.
+                Herramientas: Unreal Engine, C++, Bluerpints, Json, PHP, MySQL, Linux.
                 <p>Cliente: Proyecto Propio<p>
                 <p>Acceso Fuente: Por determinar</p>
                 <p>Prioridad: Baja.</p>
@@ -70,7 +70,7 @@ include("include/head.inc.php");
             <li><b>Modificar diseño de una página web (foro)</b><br/>
                 Diseñando principalmente el UI, el objetivo es que el interface sea más intuitivo/adaptable a dispositivos táctiles y móviles.<br/>
                 HTML/JS/PHP/CSS. Estoy utilizando Netbeans.
-                <p>Cliente: elclubtriumph.es<p>
+                <p>Cliente:  <a href="https://elclubtriumph.es" target="_blank">Foro Club Triumph</a> (no terminado)<p>
                 <p>Acceso Fuente: Privado</p>
                 <p>Prioridad: Media.</p>
                 <p>Estado: En proceso</p>   
@@ -105,7 +105,7 @@ include("include/head.inc.php");
                 <p>Cliente: Privado<p>
                 <p>Acceso Fuente: No</p>
                 <p>Prioridad: N/A</p>
-                <p>Estado: Termonado</p>
+                <p>Estado: Terminado</p>
          
             </li>
         </ul>
