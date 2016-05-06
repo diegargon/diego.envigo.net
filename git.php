@@ -60,6 +60,7 @@ $response = get_repos();
       if (strlen($readme_content) > $max_readme_chars) {
           $readme_content = substr($readme_content, 0, $max_readme_chars) ."...";
       }
+      // TODO format readme
       print '<b>Project</b>: <a href="' . $repo->html_url . '" target="_blank">' . $repo->name . '</a><br />';      
       print '<div class="github_readme">';
       print '<p>Readme:</p>';
