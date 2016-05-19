@@ -9,7 +9,7 @@
             <div class="profile">
                 <div class="resume">
                     <p>Diego García Gonzalez</p>
-                    <p><button id="MyEmail" class="btn">diego@envigo.net</button></p>
+                    <p><a class="btn" href="mailto:diego@envigo.net">diego@envigo.net</a></p>
                     <p>Developer, designer, systems and a little else.</p>
                 </div>
                 

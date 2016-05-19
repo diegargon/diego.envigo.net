@@ -22,12 +22,19 @@
     
 }
 .unslider-arrow{
-    position: absolute;
+    position: relative;
     border: 0px solid yellow;
     left: 20px;
     z-index: 2;
     cursor: pointer;
     
+}
+.unslider-arrow.next {
+    float:left;
+}
+.unslider-arrow.prev {
+    float:right;
+    margin-right:7%;
 }
 .unslider-nav ol li {
     border: 2px solid red;

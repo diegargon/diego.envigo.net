@@ -36,18 +36,3 @@
     padding:0;
     border:none
 }
-.unslider-arrow{
-    position:absolute;
-    left:20px;
-    z-index:2;
-    cursor:pointer
-}
-
-.unslider-arrow.next{
-    left:auto;
-    float:left;
-    right: 5px;
-}
-.unslider-arrow.prev{
-    
-}

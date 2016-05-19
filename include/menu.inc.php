@@ -11,11 +11,11 @@
                 
                 <a href="/iot.php" class="navbtn">IoT</a>
                 <a href="/fotografia.php" id="BtnPhotos" class="navbtn">Fotografía</a>
-                <a href="/youtube.php" id="BtnYoutube" class="navbtn">Youtube</a>
+                <a href="/youtube.php" id="BtnYoutube" class="navbtn">3D</a>
                 <a href="/working.php" id="BtnWorking" class="navbtn">Trabando en...</a>
                 <a href="/git.php" id="BtnGitHub" class="navbtn navbtn_last">GitHub</a>
                 <!-- <button id="BtnWebDesign" class="navbtn">Web </button> -->
                 <!-- <button id="BtnMoto" class="navbtn">Motorcycles</button>  -->
                 
             </div>
-            <br/>
+
