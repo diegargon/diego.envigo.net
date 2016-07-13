@@ -45,10 +45,11 @@ include("include/profilebanner.inc.php");
                  <div id="col2" class="maincolumn_text">
                  <p class="col_title">Ultimas noticias</p>
                  <ul>
-                     <li>[10/06/2016] Subido archivos iniciales a github de mi proyecto en php</li>                     
+                     <li>[14/07/2016] Creado sección sistemas/embebidos y añadido información sobre Orange PI</li>
+                     <li>[10/06/2016] Subido archivos iniciales a github de mi proyecto 'base' en php</li>
                      <li>[05/05/2016] Actualizado apartado IoT</li>
-                     <li>[21/04/2016] Atareado con los proyectos ya hace un mes que rehice esta web sin añadir mucho hasta hoy que añado la sección IoT</li>                 
-                     <li>[14/03/2016] Reconstruyendo mi página web. Descarte todo lo antiguo por lo que el contenido será mínimo de momento.</li>                 
+                     <li>[21/04/2016] Atareado con los proyectos ya hace un mes que rehice esta web sin añadir mucho hasta hoy que añado la sección IoT</li>
+                     <li>[14/03/2016] Reconstruyendo mi página web. Descarte todo lo antiguo por lo que el contenido será mínimo de momento.</li>
                  </ul>
                  </div>
              </div>

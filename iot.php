@@ -1,20 +1,12 @@
 <?php
-
 /* 
  *  Copyright @ 2016 Diego Garcia
  */
-
-
 include("include/head.inc.php");
-
 ?>
 
-
-
 <div class="blackdiv"></div>
-
 <div class="wrapper_w100_padding">
-    
     <article class="gen_article">
         <h1>IoT (Internet of Things / Internet de las cosas)</h1>
         
@@ -518,11 +510,9 @@ VCEI exceptions         : not available
         </p><p>
             Estos dias comenzo una discusión en  "Issues/github" sobre este problema, los devs de momento recomienda utilizar la rama dev. 
         </p>
-    </article>        
-    
+    </article>            
 </div>
 
 <?php
 include("include/profilebanner.inc.php");
-
 include("include/footer.inc.php");

@@ -1,13 +1,6 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+*
 */
-/*  
-    Created on : 13-mar-2016, 16:17:58
-    Author     : melmoth
-*/
-
 
 html 
 {
@@ -15,14 +8,9 @@ html
    font-family: Georgia !important; 
 }
 
-
 body {
      background-color: gray; 
 }
-
-
-
-
 
 .folio{
     
@@ -55,7 +43,6 @@ body {
 .linksmenu a:link { color: #fff !important; }
 .linksmenu a:active { color:#C00 !important;}
 .linksmenu a:visited { color:#fff !important;}
-
 
 .profile {
     float: left;  
@@ -91,7 +78,6 @@ body {
     margin-right: auto;
 }
 
-
 .bottombanner {
     display: block;
     font-family: Courier;
@@ -119,8 +105,6 @@ body {
     
 }
 
-
-
 img {
     max-width: 100%;
     max-height: 100%;
@@ -145,7 +129,6 @@ img {
   text-decoration: none;
 }
 
-
 .navbtn {
   display:inline-block;
   background: #bdbdbd;
@@ -169,7 +152,6 @@ img {
       
 }
 
-
 .navbtn_first {
       border-radius:  5px 0px 0px 5px;
 }
@@ -177,7 +159,6 @@ img {
   
     border-radius:  0px 5px 5px 0px;
 }
-
 
 .navbtn:hover {
   background: #4f4f4f;
@@ -196,8 +177,6 @@ img {
     text-align: center;    
     width:100%; 
 }
-
-
 
 .maincolumn {
     border: 0px solid red;    
@@ -260,7 +239,9 @@ img {
     
         
 }
-
+.center {
+    text-align: center;
+}
 
 .loading {
     display: none;
@@ -293,7 +274,6 @@ img {
 .gen_article p{
     font-size: 15px;
 }
-
 .code {
     color: #fff;
     background-color: #000;
@@ -301,4 +281,78 @@ img {
     border: 1px solid gray;
     box-shadow: 0 0 4px 2px #000;
     border-radius: 5px;
+}
+#t_systems {
+    width:100%;
+    border: 1px solid gray;
+}
+
+#t_systems td:first-child {
+    display: table-cell;
+    width:200px;
+    
+}
+#t_systems td {
+    border: 0px solid red;
+    vertical-align: top;    
+    padding: 5px;
+}
+#t_systems h2 {
+    font-size: 18px;
+}
+
+
+/* Blockquote */
+
+.blockquote_center {
+    margin-left: 10%;
+    
+}
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  border-left: 15px solid #c76c0c;
+  border-right: 2px solid #c76c0c;
+  box-shadow: 2px 2px 15px #ccc;
+  width:75%;
+
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
 }
