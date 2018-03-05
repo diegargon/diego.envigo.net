@@ -1,6 +1,6 @@
 <?php
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 if($_SERVER['PHP_SELF'] == '/' . basename(__FILE__)) {
         exit();

@@ -1,17 +1,9 @@
 <?php
-
-// Copyright @ 2016 Diego Garcia
-
+// Copyright @ 2017 Diego Garcia
 
 include("include/head.inc.php");
 include("include/profilebanner.inc.php");
 ?>
- 
-
-            
-
-
-
      <div id="phrase" class="wrapper_w100">
          <div class="bottombanner">
              <p>“In expanding the field of knowledge we but increase the horizon of ignorance.”
@@ -19,28 +11,21 @@ include("include/profilebanner.inc.php");
         </div>
      </div>
      
-     
      <div id="content_down">
          
          <div class="wrapper_w100">
              <div class="maincolumn">
                  <div id="col1" class="maincolumn_text">
                  <p class="col_title">Bienvenido!</p>
-                 <p>Buenas. Soy desarrollador, administrador de sistemas (linux) y diseñador. Me gusta reparar motocicletas y realizar pequeños proyectos 
-                     electrónicos, recientemente también comencé a interesarme por la fotografía. Vivo en Vigo (España). Mi tiempo va en diseñar 3D assets, 
-                     webs y desarrollar con Unreal Engine (juegos, y realidad virtual), o atreverme con cualquier tecnología. Cuando me levanto de la silla, 
-                     me gusta caminar por los montes y la costa con mi perro o conducir mi Speed Triple.
+                 <p>Buenas. Entre mis aficiones esta la programación de aplicaciones en general (aplicaciones, web, etc), la administración de sistemas (linux), realizar pequeños proyectos 
+                     electrónicos, IOT, etc o meter mano en cualquier nueva tecnología. Recientemente también comencé a interesarme por la fotografía y por el diseño de  3D assets, 
+                     webs y desarrollar con Unreal Engine (realidad virtual principalmente) cosa que desgraciadamente tengo un poco abandonado por temas de tiempo.
+                     Cuando me despego de la pantalla, me gusta hacer rutas a pie con mi perro, especialmente por montes y zonas de costa. Tambien me gustan conducir mi Speed Triple y la mecanica de moto. Vivo en Vigo (España)
                  </p>
-                 <p>
-                     Hello! I'm a developer, system administrator (linux), and designer. I like repairing motorcycles, make small electronic projects and recently begin 
-                     learning photography. I'm based in Vigo (Spain). 
-                     I spend my time designing 3D assets, webs,  developing games demos and virtual reality experiences.
-                     When i get up from the chair i enjoy walking throught the woods or the spanish coast with my dog and ride my motorcycle. 
-                     My english ins't good enough so excuse my mistakes and hope you found something interesting in my site!
-                 </p>
+
                  </div>
                  
-             </div>
+             </div> 
              <div class="maincolumn">
                  <div id="col2" class="maincolumn_text">
                  <p class="col_title">Ultimas noticias</p>
@@ -55,7 +40,7 @@ include("include/profilebanner.inc.php");
              </div>
             <div  class="maincolumn">
                 <div id="col3" class="maincolumn_text">
-                 <p class="col_title">Recientemente leí</p>
+                 <p class="col_title">Recientemente leí (Relevante)</p>
                  <ul>
                      <li><a rel="nofollow" href="https://github.com/ssloy/tinyrenderer/wiki">How OpenGL works</a></li>
                      <li><a rel="nofollow" href="http://buildnewgames.com/gamephysics/">How Physics engine works</a></li>

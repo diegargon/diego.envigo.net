@@ -1,6 +1,6 @@
 <?php
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 include("include/head.inc.php");
 ?>
@@ -12,7 +12,7 @@ include("include/head.inc.php");
         <table id="t_systems">
             <tr>
                 <td>
-                    <img width="200" src="http://techveda.org/wp-content/uploads/2013/12/KernelProgrammingEmbeddedLinux.png" alt='Embedded Systems'/>
+                    <img width="200" src="https://diego.envigo.net/systems/img/KernelProgrammingEmbeddedLinux.png" alt='Embedded Systems'/>
                 </td>
                 <td>
                     <h2>Sistemas embebidos</h2>
@@ -22,6 +22,18 @@ include("include/head.inc.php");
                     </ul>                    
                 </td>
         </table>     
+        <table id="t_systems">
+            <tr>
+                <td>
+                    <img width="200" src="https://diego.envigo.net/systems/img/Linux-server.png" alt='redes y administración'/>
+                </td>
+                <td>
+                    <h2>Redes y administración de sistemas</h2>
+                    <ul>
+                        <li><a href="/qos.php">QoS: Introducción</a></li>                        
+                    </ul>                    
+                </td>
+        </table>             
     </div> 
 </div>
 

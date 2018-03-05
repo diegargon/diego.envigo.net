@@ -1,11 +1,9 @@
 <?php
-
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 ?>
 <!DOCTYPE html>
-
 
 <html>
     <head>
@@ -23,7 +21,6 @@
         
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="/unslider/unslider-min.js"></script>
-       
        
         <script>
 
@@ -45,18 +42,14 @@
         <title>Diego García Gonzalez</title>
     </head>
     <body>
-
- 
-
         <div class="wrap_center">
-        
+
         <div class="folio">
             <div id='loading_wrap' class="loading"></div>  
 <?php
         include("include/menu.inc.php");
 ?>
-            
-                        
+
             <div id="content_up">
                               
             </div>

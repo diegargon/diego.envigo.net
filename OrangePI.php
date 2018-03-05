@@ -1,6 +1,6 @@
 <?php
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 include("include/head.inc.php");
 ?>
@@ -46,14 +46,15 @@ include("include/head.inc.php");
     </p>
     <p>
         Tuve que construir una distribución basada en Armbian con paquetes extra y de paso ya que tenia todo el toolchain construí las imágenes básicas, sin paquetes añadidos, cambiando solamente 
-        el lenguaje a es_ES@UTF-8 y el teclado al español, os dejo el enlace a para descargas en una cuenta mega.co.nz 
+        el lenguaje a es_ES@UTF-8 y el teclado al español, os dejo el enlace a para descargas en una cuenta mega.co.nz. (Elimanado enlaces por anticuados)
     </p>
     <ul>
-        <li><a href="https://mega.nz/#!IQlT3SAS!rG-sg5Xra-hQeKONvLf4K-T1YdfgMMsLrEFIMTsrqWw">Orange PI Lite Debian Jessie 3.4.112 (Solo consola)</a></li>
-        <li><a href="https://mega.nz/#!gBMjnAIQ!aZOsh9rdLImZCohnc50NpahF14I_Vvd2rGJIX6bcTJw">Orange PI Lite Ubuntu Xenial 3.4.112 (Escritorio)</a></li>
-        <li><a href="https://mega.nz/#!5NtyQSBR!JZvQOqRDmsYC2Qs3-ojy5Nua81949Z93_2_SVG-fCyU">Orange PI One Ubuntu Xenial 3.4.112 (Escritorio)</a></li>
-        <li><a href="https://mega.nz/#!tY8xzYKR!a_DpLwZ0wCIYltjI1e1wEVUhrcvIVSEw_A9WGMDGid0">Orange PI PC PLUS Ubuntu Xenial 3.4.112 (Escritorio</a></li>
+        <li>Orange PI Lite Debian Jessie 3.4.112 (Solo consola)</li> 
+        <li>Orange PI Lite Ubuntu Xenial 3.4.112 (Escritorio)</li>
+        <li>Orange PI One Ubuntu Xenial 3.4.112 (Escritorio)</li>
+        <li>Orange PI PC PLUS Ubuntu Xenial 3.4.112 (Escritorio</li>
     </ul>
+    
     <p>Todos tienen el legacy kernel ya que con el vanilla si bien esta más actualizado se pierde la aceleración de vídeo</p>
     <p>De momento nada más</p>
 </div>

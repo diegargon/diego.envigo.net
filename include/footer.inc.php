@@ -1,7 +1,6 @@
 <?php
-
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 ?>
      <div class="footer">

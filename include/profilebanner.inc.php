@@ -1,7 +1,6 @@
 <?php
-
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 
 ?>
@@ -14,6 +13,6 @@
                 </div>
                 
                 <div class="photo">
-                <img alt="Diego García Gonzalez"  src="images/Mifoto_Desktop.png">
+                <img alt="Diego García Gonzalez"  src="">
                 </div>
             </div>

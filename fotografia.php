@@ -1,7 +1,6 @@
 <?php
-
 /* 
- *  Copyright @ 2016 Diego Garcia
+ *  Copyright @ 2017 Diego Garcia
  */
 
 include("include/head.inc.php");
@@ -10,9 +9,14 @@ include("include/head.inc.php");
 <div class="wrapper_w100">
     <div class="default-slider">
         <ul>
-         <li><img src="http://diego.envigo.net/photos/udra1.jpg" alt="Cabo Udra"></li>
-        <li><img src="http://diego.envigo.net/photos/manzaneda1.jpg" alt="Manzaneda"></li>
+         <li><img src="https://diego.envigo.net/photos/udra1.jpg" alt="Cabo Udra"></li>
+        <li><img src="https://diego.envigo.net/photos/manzaneda1.jpg" alt="Manzaneda"></li>
+        <li><img src="https://diego.envigo.net/photos/DSC_2040-4k.jpg" alt="Manzaneda"></li>
+        <li><img src="https://diego.envigo.net/photos/DSC_2046.jpg" alt="Manzaneda"></li>
+        <li><img src="https://diego.envigo.net/photos/DSC_1905-modA.jpg" alt="Manzaneda"></li>
+        <li><img src="https://diego.envigo.net/photos/DSC_2023-ModB.jpg" alt="Manzaneda"></li>
 	</ul>
+        
     </div>
 
     <script>
@@ -27,5 +31,4 @@ include("include/head.inc.php");
 <?php
 
 include("include/profilebanner.inc.php");
-
 include("include/footer.inc.php");

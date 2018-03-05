@@ -1,4 +1,8 @@
 <?php
+/* 
+ *  Copyright @ 2017 Diego Garcia
+ */
+
 include("include/head.inc.php");
 
 /*
