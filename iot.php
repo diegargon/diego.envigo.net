@@ -9,7 +9,7 @@ include("include/head.inc.php");
 <div class="wrapper_w100_padding">
     <article class="gen_article">
         <h1>IoT (Internet of Things / Internet de las cosas)</h1>
-        
+        <p>Este documento ya tiene su tiempo algunas cosas estaran absoletas</p>
         <ul>
             <li><a href="#Iniciando">Iniciando</a></li>
             <li><a href="#ElHardware">El Hardware</a></li>

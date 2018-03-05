@@ -61,9 +61,9 @@ include("include/head.inc.php");
 
         <h2 id="Objetivo">Objetivo</h2>
         <p>El objetivo es priorizar determinado tráfico con respecto a otro para incrementar la latencia del trafico más priorizado, y en caso de 
-            congestión el trafico más importante tengan garantizado un ancho de manda mínimo.
+            congestión, el trafico más importante tengan garantizado un ancho de manda mínimo.
         </p>
-        <p>Para ello utilizaremos cuatro prioridades, de mayor a menor 0, 1, 2, 3 y el marcado de paquetes ira de 1 a 4. (Ya hable de ello más adelante)
+        <p>Para ello utilizaremos cuatro prioridades, de mayor a menor 0, 1, 2, 3 y el marcado de paquetes ira de 1 a 4. (Ya hablere de ello más adelante)
         </p>
 
         <h2 id="Consideraciones">Consideraciones</h2>
@@ -75,7 +75,7 @@ include("include/head.inc.php");
 
         <p>Actualmente dicho servidor hace NAT/Masquerading, proporciona servicios de mail, web, dns y firewall. 
         </p>
-        <p>En máquinas haciendo NAT/MASQ no se puede marcar por IP el tráfico entrante ya que todo el tráfico entra con la dirección IP del servidor y el marcaje se produce antes de que el servidor cambie al destinatario real dentro de la red local. Aunque se puede utilizar IMQ para marca el tráfico, cosa que no hablaremos en este artículo, aunque quizás en el futuro si me coincide la necesidad aprovechare para hacer alguno al respecto.
+        <p>En máquinas haciendo NAT/MASQ no se puede marcar por IP el tráfico entrante ya que todo el tráfico entra con la dirección IP del servidor y el marcaje se produce antes de que el servidor cambie al destinatario real dentro de la red local. Aunque se puede utilizar IMQ para marca el tráfico, cosa que no hablaremos en este artículo, aunque quizás en el futuro si me coincide la necesidad aprovechare para hacer alguno articulo al respecto.
         </p>
 
         <p>El ancho máximo, en nuestro caso de subida de datos, hay que ajustarlo siempre por debajo del máximo, o sea a pesar de tener 20mb de subida lo configurare por a 18mb. Es conveniente hacer sin carga en la red una prueba de velocidad máxima real y trabajar sobre eso, este paso es crítico, ya que el servidor que controle QoS tiene que ser el que limita, si pones por encima del ancho real será el modem/router que da conexión a internet el que limite por saturación y simplemente no funcionara el QoS. 
@@ -307,7 +307,7 @@ include("include/head.inc.php");
         <p>
             Y algunos hay ejemplos más hay en el script enlazado al final.
         </p><p>
-            Uno de ellos es con respecto al TOS, la cabezadas IP tienen una marca de tipo de servicio y estas se toman en consideración para tratarlas con más prioridad o no, así que nuestra configuración QoS será consecuente.
+            Uno de ellos es con respecto al TOS, los encabezados IP tienen una marca de tipo de servicio y estas se toman en consideración para tratarlas con más prioridad o no, así que nuestra configuración QoS será consecuente.
         </p>
 
         <h2 id="Ajustes">Ajustes finales</h2>
@@ -323,9 +323,9 @@ include("include/head.inc.php");
         </p><p>
             El "Requeriment" myFirewall es otro script del firewall usado y es requerido por que activa el NAT/MASQ y otras reglas.
         </p><p>            
-            Las reglas opcionales RETURN evitan que se sigan recorriendo si hay coincidencia la otras reglas de marcado, en la mayoría de sistemas es seguro pero puede haber sistemas/configuraciones que no, de ahí a que sea opcional.
+            Las reglas opcionales RETURN evitan que se sigan recorriendo si hay coincidencia la otras reglas de marcado. En la mayoría de sistemas es seguro pero puede haber sistemas/configuraciones que no, de ahí a que sea opcional.
         </p><p>            
-            Como menciona arriba se hace mención a DOWN_SPEED y INT_IF pero no se utilizan.
+            Como menciono arriba se hace mención a DOWN_SPEED y INT_IF pero no se utilizan en este ejemplo
         </p>
 
         <h2 id="Enlaces">Enlaces</h2>
