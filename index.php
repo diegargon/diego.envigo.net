@@ -17,10 +17,17 @@ include("include/profilebanner.inc.php");
              <div class="maincolumn">
                  <div id="col1" class="maincolumn_text">
                  <p class="col_title">Bienvenido!</p>
-                 <p>Buenas. Entre mis aficiones esta la programación de aplicaciones en general (aplicaciones, web, etc), la administración de sistemas (linux), realizar pequeños proyectos 
-                     electrónicos, IOT, etc o meter mano en cualquier nueva tecnología. Recientemente también comencé a interesarme por la fotografía y por el diseño de  3D assets, 
-                     webs y desarrollar con Unreal Engine (realidad virtual principalmente) cosa que desgraciadamente tengo un poco abandonado por temas de tiempo.
-                     Cuando me despego de la pantalla, me gusta hacer rutas a pie con mi perro, especialmente por montes y zonas de costa. Tambien me gustan conducir mi Speed Triple y la mecanica de moto. Vivo en Vigo (España)
+                 <p> Entre mis intereses y aficiones esta la programación de aplicaciones en general (aplicaciones, web, etc), 
+                     la administración de sistemas (linux), realizar pequeños proyectos electrónicos, IOT o meter mano en cualquier nueva 
+                     tecnología, placa de demostración o cualquier cosa electronica que caiga en mis manos.
+                     También comencé a mediados/finales del 2014 a interesarme por la fotografía y por el diseño 3D assets, y el desarrollo de 
+                     juegos con Unreal Engine 4, centrandome en el campo de realidad virtual, desgraciadamente dicha "disciplina" requiere 
+                     invertir mucho tiempo y la tuve que dejar de lado.<br/>
+                     Cuando me despego de la pantalla, me gusta hacer rutas a pie, especialmente por montes y zonas de costa, siempre acompañado 
+                     de mi perro.<br/>
+                     Tambien me gustan conducir mi Triumph, una Speed Triple, y el mundo de la mecanica de motos, hobby que me llevo a la 
+                     administración de <a href="https://elclubtriumph.es">El Club Triumph</a> España<br/>
+                     Vivo en Vigo (España)
                  </p>
 
                  </div>
@@ -30,6 +37,8 @@ include("include/profilebanner.inc.php");
                  <div id="col2" class="maincolumn_text">
                  <p class="col_title">Ultimas noticias</p>
                  <ul>
+                     <li>[04/03/2018] Volviendo a la vida la web</li>
+                     <li>[00/00/2017] Añadido QoS a sistemas
                      <li>[14/07/2016] Creado sección sistemas/embebidos y añadido información sobre Orange PI</li>
                      <li>[10/06/2016] Subido archivos iniciales a github de mi proyecto 'base' en php</li>
                      <li>[05/05/2016] Actualizado apartado IoT</li>

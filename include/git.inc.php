@@ -14,7 +14,11 @@ function get_user($user) {
 function get_readme($reponame) {
   $curl_readme_url = 'https://api.github.com/repos/' . $GLOBALS["user"] . '/' . $reponame .'/readme';
   $response = curl_get($curl_readme_url);
-  return base64_decode($response->content);
+  if (isset($response->content)) {
+    return base64_decode($response->content);
+  } else if (isset($response->message)) {
+      return $response->message;
+  }
 }
 
 function get_repos() {
@@ -30,6 +34,6 @@ function curl_get($url){
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('User-Agent: Awesome-Octocat-App', $GLOBALS["curl_token"]));
     $response = curl_exec($ch);
     curl_close($ch);
-    return json_decode($response);  
+    return json_decode($response); 
 }
 
