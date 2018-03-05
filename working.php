@@ -13,8 +13,8 @@ include("include/head.inc.php");
     <div class='workingon'>
         <ul>
             <li><b>IoT</b>
-                Proyecto IoT (Internet de las cosas),  <br/>
-                Herramientas: C++, Arduino, Android, Electrónica, Linux Embed, esp8266
+                Proyecto IoT, con conectivad con moviles (Wifi)  <br/>
+                Herramientas: C++, Arduino, Android, Electrónica, Linux Embed, esp8266, Wifi, Webserver
                 <p>Cliente: Proyecto Propio<p>
                 <p>Acceso Fuente: Publico/Github/</p>
                 <p>Prioridad: Alta.</p>
@@ -48,6 +48,14 @@ include("include/head.inc.php");
     <div class=''>Terminado (desde el inicio de esta web)...</div>
     <div class='workingon'>        
         <ul>
+            <li><b>Actualizar web de prestashop</b><br/>
+                Actualización general.
+                <p>Destino: Terceros Privado<p>
+                <p>Acceso Fuente: Privado</p>
+                <p>Prioridad: N/A.</p>
+                <p>Estado: Finalizado</p>   
+            </li>               
+            
             <li><b>Modificar diseño de una página web (foro)</b><br/>
                 Diseñando principalmente el UI, el objetivo es que el interface sea más intuitivo/adaptable a dispositivos táctiles y móviles.<br/>
                 HTML/JS/PHP/CSS. Estoy utilizando Netbeans.
@@ -56,6 +64,14 @@ include("include/head.inc.php");
                 <p>Prioridad: N/A.</p>
                 <p>Estado: Finalizado</p>   
             </li>         
+            <li><b>Solucionar problema de web prestashop</b><br/>
+                Problema de comflictos de modulos
+                <p>Destino: Terceros Privado<p>
+                <p>Acceso Fuente: N/A</p>
+                <p>Prioridad: N/A.</p>
+                <p>Estado: Finalizado</p>   
+            </li>               
+            
             <li><b>Aplicación Android Linterna</b><br/>
                 Aplicación / Boceto rapido para volver asimilar 
                 <br/>
@@ -147,8 +163,7 @@ include("include/head.inc.php");
             </li>         
         </ul>
     </div>
-    </div>
-    
+
     </div>
 </div>
 
