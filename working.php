@@ -29,7 +29,13 @@ include("include/head.inc.php");
                 <p>Prioridad: Baja.</p>
                 <p>Estado: En proceso</p>
             </li>   
-            
+            <li><b>Actualizar foro phpbb</b>
+                <p>Cliente: Terceros/Privado <p>
+                <p>Acceso Fuente: No</p>
+                <p>Prioridad: Baja.</p>
+                <p>Estado: En espera</p>
+            </li>   
+                        
             <li><b>Proyecto Base</b>
                 Un proyecto que empecé hace algún tiempo y actualmente no puedo dedicarle todo el tiempo que desearía. El objetivo era crear un 
                 CMS desde 0 por motivos de aprendizaje. El proyecto esta bastante avanzado pero necesita reescribir varios apartados
@@ -73,7 +79,7 @@ include("include/head.inc.php");
             </li>               
             
             <li><b>Aplicación Android Linterna</b><br/>
-                Aplicación / Boceto rapido para volver asimilar 
+                Aplicación simple que realice para volver a coger soltura con el android studio 
                 <br/>
                 Herramientas: Android Studio
                 <p>Destino: Propio / Google Play<p>

@@ -7,9 +7,9 @@ include("include/head.inc.php");
 
 <div class="blackdiv"></div>
 <div class="wrapper_w100_padding">
+    <p>Fecha creacion: Julio 2016 - Dependiendo de la fecha puede estar obsoleto o parcialmente obsoleto </p>
     <article class="gen_article">
         <h1>IoT (Internet of Things / Internet de las cosas)</h1>
-        <p>Este documento ya tiene su tiempo algunas cosas estaran absoletas</p>
         <ul>
             <li><a href="#Iniciando">Iniciando</a></li>
             <li><a href="#ElHardware">El Hardware</a></li>
@@ -514,5 +514,5 @@ VCEI exceptions         : not available
 </div>
 
 <?php
-include("../include/profilebanner.inc.php");
-include("../include/footer.inc.php");
+include("include/profilebanner.inc.php");
+include("include/footer.inc.php");

@@ -7,8 +7,8 @@ include("include/head.inc.php");
 
 <div class="blackdiv"></div>
 <div class="wrapper_w100_padding">
+    <p>Fecha creacion: Julio 2016 - Dependiendo de la fecha puede estar obsoleto o parcialmente obsoleto </p>
     <h1>Orange PI</h1>
-    <p>Este documento ya tiene su tiempo algunas cosas podrían estar absoletas</p>
     <p>La Tarjeta <a href="http://orangepi.org">Orange Pi</a> es una tarjeta similar y compatible con la <a href="https://www.raspberrypi.org">Raspberry PI</a>, tiene diferentes
         versiones como podéis ver en su pagina web, por lo general son más baratas.                
     </p>

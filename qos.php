@@ -9,8 +9,8 @@ include("include/head.inc.php");
 <div class="blackdiv"></div>
 <div class="wrapper_w100_padding">
     <article class="gen_article">
+        <p>Fecha creacion: Julio 2016 - Dependiendo de la fecha puede estar obsoleto o parcialmente obsoleto </p>
         <h1>QoS (Quality of Service</h1>
-
         <ul>
             <li><a href="#Intro">Introducción</a></li>
             <li><a href="#Conocimientos">Conocimientos previos</a></li>

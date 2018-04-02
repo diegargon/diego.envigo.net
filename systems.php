@@ -17,8 +17,8 @@ include("include/head.inc.php");
                 <td>
                     <h2>Sistemas embebidos</h2>
                     <ul>
-                        <li><a href="/iot.php">Empezando con dispositivos IoT y embebidos (Parcialmente obsoleto) </a></li>
-                        <li><a href="/OrangePI.php">Intro a OrangePI y firmwares (Parcialmente obsoleto)</a></li>
+                        <li><a href="/iot.php">Empezando con dispositivos IoT y embebidos</a></li>
+                        <li><a href="/OrangePI.php">Intro a OrangePI y firmwares</a></li>
                     </ul>                    
                 </td>
         </table>     
