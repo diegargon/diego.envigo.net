@@ -48,7 +48,7 @@
         <div class="folio">
             <div id='loading_wrap' class="loading"></div>  
 <?php
-        include("". $cfg['PATH'] ."/include/menu.inc.php");
+        include("". $cfg['INC_PATH'] ."/menu.inc.php");
 ?>
 
             <div id="content_up">
