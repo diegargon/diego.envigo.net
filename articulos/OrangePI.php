@@ -2,7 +2,8 @@
 /* 
  *  Copyright @ 2017 Diego Garcia
  */
-include("include/head.inc.php");
+include("../config/config.php");
+include("". $cfg['INC_PATH'] ."/head.inc.php");
 ?>
 
 <div class="blackdiv"></div>
@@ -65,9 +66,5 @@ include("include/head.inc.php");
 
 
 <?php
-
-include("include/profilebanner.inc.php");
-
-include("include/footer.inc.php");
-
-
+include("". $cfg['INC_PATH'] ."/profilebanner.inc.php");
+include("". $cfg['INC_PATH'] ."/footer.inc.php");

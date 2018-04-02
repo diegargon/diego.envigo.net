@@ -2,8 +2,8 @@
 /* 
  *  Copyright @ 2017 Diego Garcia
  */
-
-include("include/head.inc.php");
+include("config/config.php");
+include("".$cfg['PATH']."/include/head.inc.php");
 
 /*
 if($_SERVER['PHP_SELF'] == '/' . basename(__FILE__)) {
@@ -82,6 +82,5 @@ $response = get_repos();
 <script type="text/javascript">$('#loading_wrap').hide();</script>
 
 <?php
-include("include/profilebanner.inc.php");
-
-include("include/footer.inc.php");
+include("". $cfg['PATH'] ."include/profilebanner.inc.php");
+include("". $cfg['PATH'] ."include/footer.inc.php");

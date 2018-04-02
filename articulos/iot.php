@@ -2,7 +2,8 @@
 /* 
  *  Copyright @ 2017 Diego Garcia
  */
-include("include/head.inc.php");
+include("../config/config.php");
+include("". $cfg['INC_PATH'] ."/head.inc.php");
 ?>
 
 <div class="blackdiv"></div>
@@ -93,7 +94,7 @@ include("include/head.inc.php");
         </p><p>
             NodeMCU V2:
         </p>
-        <img width="400" src="images/nodecuV2"/>
+        <img width="400" src="<?= $cfg['IMG_PATH'] ?>/nodecuV2.jpg"/>
 
         <p>
             Desgraciadamente para mi segundo proyecto aparte de muchas de las cualidades del ESP8266 necesito poder conectar una cámara por lo que  necesito algo 
@@ -120,7 +121,7 @@ include("include/head.inc.php");
         </p><p>
             Yun Shield:(la parte de abajo es una placa arduino no incluida)
         </p>
-        <img width="400" src="images/YunShield_2.png"/>
+        <img width="400" src="<?= $cfg['IMG_PATH'] ?>/YunShield_2.png"/>
 
         <p>
            Decir que estos módulos, en especial el Yun Shield son adecuados para trabajar con Arduino, y tienen un amplio soporte, personalmente aparte de gustarme más 
@@ -514,5 +515,5 @@ VCEI exceptions         : not available
 </div>
 
 <?php
-include("include/profilebanner.inc.php");
-include("include/footer.inc.php");
+include("". $cfg['INC_PATH'] ."/profilebanner.inc.php");
+include("". $cfg['INC_PATH'] ."/footer.inc.php");

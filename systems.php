@@ -2,7 +2,8 @@
 /* 
  *  Copyright @ 2017 Diego Garcia
  */
-include("include/head.inc.php");
+include("config/config.php");
+include("".$cfg['PATH']."/include/head.inc.php");
 ?>
 
 <div class="blackdiv"></div>
@@ -17,9 +18,12 @@ include("include/head.inc.php");
                 <td>
                     <h2>Sistemas embebidos</h2>
                     <ul>
-                        <li><a href="/iot.php">Empezando con dispositivos IoT y embebidos</a></li>
-                        <li><a href="/OrangePI.php">Intro a OrangePI y firmwares</a></li>
+                        <li><a>Esp12-E en crudo (pronto)</a></li>
+                        <li><a>Intro a ESP32 (pronto)</a></li>                             
+                        <li><a href="articulos/iot.php">Empezando con dispositivos IoT y embebidos</a></li>
+                        <li><a href="articulos/OrangePI.php">Intro a OrangePI y firmwares</a></li>                   
                     </ul>                    
+                    
                 </td>
         </table>     
         <table id="t_systems">
@@ -30,7 +34,7 @@ include("include/head.inc.php");
                 <td>
                     <h2>Redes y administración de sistemas</h2>
                     <ul>
-                        <li><a href="/qos.php">QoS: Introducción</a></li>                        
+                        <li><a href="articulos/qos.php">QoS: Introducción</a></li>                        
                     </ul>                    
                 </td>
         </table>             
@@ -38,7 +42,5 @@ include("include/head.inc.php");
 </div>
 
 <?php
-include("include/profilebanner.inc.php");
-include("include/footer.inc.php");
-
-
+include("". $cfg['PATH'] ."include/profilebanner.inc.php");
+include("". $cfg['PATH'] ."include/footer.inc.php");

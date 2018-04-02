@@ -1,8 +1,9 @@
 <?php
 // Copyright @ 2017 Diego Garcia
 
-include("include/head.inc.php");
-include("include/profilebanner.inc.php");
+include("config/config.php");
+include("". $cfg['INC_PATH'] ."/head.inc.php");
+include("". $cfg['INC_PATH'] ."/profilebanner.inc.php");
 ?>
      <div id="phrase" class="wrapper_w100">
          <div class="bottombanner">
@@ -61,6 +62,4 @@ include("include/profilebanner.inc.php");
          
      </div>
 <?php
-include("include/footer.inc.php");
-?>
-
+include("". $cfg['PATH'] ."include/footer.inc.php");

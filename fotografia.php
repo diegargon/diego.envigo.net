@@ -2,8 +2,8 @@
 /* 
  *  Copyright @ 2017 Diego Garcia
  */
-
-include("include/head.inc.php");
+include("config/config.php");
+include("".$cfg['INC_PATH']."/head.inc.php");
 ?>
 <div class="blackdiv"></div>
 <div class="wrapper_w100">

@@ -2,6 +2,7 @@
 /* 
  *  Copyright @ 2017 Diego Garcia
  */
+//include("/config/config.php");
 ?>
 <!DOCTYPE html>
 
@@ -13,11 +14,11 @@
         <meta name="keywords" content="HTML,css, iot, unreal engine, linux, sql, embed">
         <link rel="stylesheet" href="/unslider/unslider.css">
         <link rel="stylesheet" href="/unslider/unslider-dots.css">
-        <link rel="stylesheet" href="css/diegostyle.css">        
-        <link rel="stylesheet" href="css/thirdparty.css">
-        <link rel="stylesheet" href="css/octicons/octicons.css">
-        <link rel="stylesheet" href="css/git.css">
-        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="/css/diegostyle.css">        
+        <link rel="stylesheet" href="/css/thirdparty.css">
+        <link rel="stylesheet" href="/css/octicons/octicons.css">
+        <link rel="stylesheet" href="/css/git.css">
+        <link rel="stylesheet" href="/css/mobile.css">
         
         <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="/unslider/unslider-min.js"></script>
@@ -47,7 +48,7 @@
         <div class="folio">
             <div id='loading_wrap' class="loading"></div>  
 <?php
-        include("include/menu.inc.php");
+        include("". $cfg['PATH'] ."/include/menu.inc.php");
 ?>
 
             <div id="content_up">
