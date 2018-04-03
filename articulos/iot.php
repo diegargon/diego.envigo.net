@@ -1,9 +1,9 @@
 <?php
-/* 
+/*
  *  Copyright @ 2017 Diego Garcia
  */
 include("../config/config.php");
-include("". $cfg['INC_PATH'] ."/head.inc.php");
+include("" . $cfg['INC_PATH'] . "/head.inc.php");
 ?>
 
 <div class="blackdiv"></div>
@@ -24,7 +24,7 @@ include("". $cfg['INC_PATH'] ."/head.inc.php");
             <li><a href="#PrimProgLua">Primeras impresiones programando el NodeMCU/ESP8266</a></li>
         </ul>
 
-        
+
         <h2>Entrada 1</h2>
         <h2 id="Iniciando">Iniciando</h2>
         <p>
@@ -67,9 +67,9 @@ include("". $cfg['INC_PATH'] ."/head.inc.php");
             los días sale algo que se adapte mejor a mis necesidades, eso si a la hora de escribir esto ya tengo visto el hardware con el que empezare, y 
             dado que aun estoy a la espera de recibirlo empezare hablando por dicha elección.
         </p>
-        
+
         <h2 id="ElHardware">El hardware</h2>
-        
+
         <p> 
             Elegir el hardware con el trabajar es uno de los primeros pasos que hay que dar, depende las necesidades del proyecto que tengas en mente te convendrá más 
             uno que otro, si no tienes ninguno especial también hay hardware con multitud de opciones que se adaptaran a todo tipo de situaciones mejor que otros más 
@@ -124,9 +124,9 @@ include("". $cfg['INC_PATH'] ."/head.inc.php");
         <img width="400" src="<?= $cfg['IMG_PATH'] ?>/YunShield_2.png"/>
 
         <p>
-           Decir que estos módulos, en especial el Yun Shield son adecuados para trabajar con Arduino, y tienen un amplio soporte, personalmente aparte de gustarme más 
-           trabajar con Microchip para mis proyectos no creo que me haga falta ni lo uno ni lo otro. O sea en principio este articulo no contendrá nada de Arduino ni 
-           de Microchip especifico, al menos si puedo evitarlo.
+            Decir que estos módulos, en especial el Yun Shield son adecuados para trabajar con Arduino, y tienen un amplio soporte, personalmente aparte de gustarme más 
+            trabajar con Microchip para mis proyectos no creo que me haga falta ni lo uno ni lo otro. O sea en principio este articulo no contendrá nada de Arduino ni 
+            de Microchip especifico, al menos si puedo evitarlo.
         </p><p>
             Había opciones más baratas y más potentes en el momento de la compra, había una Orange PI  por 10€ en una página de importación interesante,  
             si bien el precio era más barato era la versión antigua por eso supongo ese precio tan bonito, pero ese precio sera  hasta que acaben con el stock antiguo, 
@@ -143,7 +143,7 @@ include("". $cfg['INC_PATH'] ."/head.inc.php");
         </p><p>
             Y hasta aquí la primera entrada de este diario, toca esperar la llegada del hardware para comenzar.
         </p>
-        
+
         <!-- -->
         <h2>Entrada 2</h2>
         <h2 class="LosProyectos">Los proyectos</h2>
@@ -201,7 +201,7 @@ include("". $cfg['INC_PATH'] ."/head.inc.php");
         </p><p>
             Entrando por SSH comprobamos con ‘df –h’ que tengo espacio en principio de sobra con este firmware para mi proyecto.
         </p>
-        
+
         <pre class="code">
 root@dragino-af26d1:~# df -h
 Filesystem                Size      Used Available Use% Mounted on
@@ -212,9 +212,9 @@ tmpfs                   512.0K         0    512.0K   0% /dev
 /dev/mtdblock3            5.6M    416.0K      5.2M   7% /overlay
 overlayfs:/overlay        5.6M    416.0K      5.2M   7% /
         </pre>
-        
+
         <p>
-Ya puestos veamos los puntos de montaje.
+            Ya puestos veamos los puntos de montaje.
         </p>
 
         <pre class="code">
@@ -263,7 +263,7 @@ none /proc/bus/usb usbfs rw,relatime 0 0
             en el caso de programas posiblemente dé algún problema y en caso de actualizar la ROM  sea mejor borrar la partición haciendo previamente antes 
             una copia de seguridad de los archivos de configuración, o eliminar programas y librerías instaladas.
         </p>
-        
+
         <h2 id="DefaultDragino"> 
             El sistema por defecto del Dragino.
         </h2>
@@ -303,7 +303,7 @@ Linux video capture interface: v2.00
         </p><p> 
             Ya acabando por hoy por que nunca esta de más os muestro el /proc/cpuinfo
         </p>
-<pre class="code">
+        <pre class="code">
 root@dragino-af26d1:/proc# cat cpuinfo
 system type             : Atheros AR9330 rev 1
 machine                 : Arduino Yun
@@ -321,7 +321,7 @@ kscratch registers      : 0
 core                    : 0
 VCED exceptions         : not available
 VCEI exceptions         : not available
-</pre>
+        </pre>
 
         <p> 
             Si alguien quiere alguna información extra sobre el Hardware que me escriba, por lo demás es un sistema normal “OpenWrt” con ligeras modificaciones que veré en 
@@ -332,8 +332,8 @@ VCEI exceptions         : not available
             haré si no es necesario porque tanto en el Proyecto1 (especialmente) como el Proyecto2 me interesa sacarlo adelante cuanto antes, además tiempo abra si no es con 
             este con algún otro proyecto que le seguirá.
         </p> 
-                    
-        
+
+
         <h2>Entrada 3</h2>
         <h2 id="PrimNodeMCU">Primer vistazo al NodeMCU</h2>
 
@@ -382,7 +382,7 @@ VCEI exceptions         : not available
             Used  : 8785 bytes
             Remain: 3432676 bytes 
         </pre>
-        
+
         <p>
             Creía que iba a quedar mucho menos, pero aun hay que ver que tiene y que no tiene ese firmware
         </p><p>
@@ -391,7 +391,7 @@ VCEI exceptions         : not available
             El <a href="http://esp8266.ru/download/esp8266-doc/Getting%20Started%20with%20the%20ESPlorer%20IDE%20-%20Rui%20Santos.pdf " target="_blank" rel="nofollow">Getting Started ESPlorer</a>
             te ayudara a comenzar con el ESPlorer, es una guía muy básica pero útil para empezar.
         </p>
-        
+
         <h2 id="OtherLangLua">Lua ¡Otro lenguaje más a aprender!</h2>
 
         <p>
@@ -426,7 +426,7 @@ VCEI exceptions         : not available
             La mitad del libro es un montón de teoría sin muchos ejemplos, y a veces dichos ejemplos para alguien que empieza dudo que estén bien contextualizados, 
             por lo menos para mí me perdieron un poco. La otra mitad es una explicación de la API y como no tengas una memoria prodigiosa te valdrá en un principio 
             para bien poco, de todas formas es bueno ver las posibilidades aunque no quiere decir que todas estén disponibles en NodeMCU.
-         </p><p>
+        </p><p>
             Como dije para mí lo tal es ir viendo los ejemplos, para cualquiera con conocimientos de programación no le costara aprender así, el libro da otra 
             impresión de dificultad comparándolo con el código que circulan online.
         </p><p>
@@ -515,5 +515,5 @@ VCEI exceptions         : not available
 </div>
 
 <?php
-include("". $cfg['INC_PATH'] ."/profilebanner.inc.php");
-include("". $cfg['INC_PATH'] ."/footer.inc.php");
+include("" . $cfg['INC_PATH'] . "/profilebanner.inc.php");
+include("" . $cfg['INC_PATH'] . "/footer.inc.php");

@@ -11,6 +11,9 @@ html
 body {
      background-color: gray; 
 }
+li {
+    margin-left: 30px;
+}
 
 .folio{
     
@@ -355,4 +358,5 @@ blockquote a:hover{
 
 blockquote em{
   font-style: italic;
+
 }
