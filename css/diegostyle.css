@@ -12,6 +12,17 @@ body {
      background-color: gray; 
 }
 
+section {
+    display:block;   
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+section h1 {
+    font-size: 1.2em;
+}
+section h2 {
+    
+}
 .folio{
     
     background-color: #fff;
@@ -59,7 +70,7 @@ body {
     margin: 0 auto;
     border:0px solid red;
     background-color: #040404;
-    padding-top: 50px; 
+    padding-top: 5px; 
     padding-left: 50px;
     float:left;
     color: #fff;
@@ -117,7 +128,7 @@ img {
   text-shadow: 1px 1px 3px #000000;
   font-family: Arial;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1en;
   padding: 5px 10px 5px 10px;
   border: solid #1f628d 2px;
   text-decoration: none;
@@ -142,7 +153,7 @@ img {
   font-family: Georgia;
   font-weight: bold;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   padding: 5px 8px 5px 8px;
   text-decoration: none;
   border: solid #000000 1px;
@@ -186,7 +197,7 @@ img {
 }
 
 .maincolumn p.col_title {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;    
 }
 
@@ -266,13 +277,13 @@ img {
     margin:0 auto;
 }
 .gen_article h1 {
-        font-size:23px;
+    font-size:1em;
 }
 .gen_article h2{
-    font-size: 17px;
+    font-size: 1em;
 }
 .gen_article p{
-    font-size: 15px;
+    font-size: 1em;
 }
 .code {
     color: #fff;
@@ -281,17 +292,11 @@ img {
     border: 1px solid gray;
     box-shadow: 0 0 4px 2px #000;
     border-radius: 5px;
-}
-#t_systems {
-    width:100%;
-    border: 1px solid gray;
+     word-wrap: break-word;
+  white-space: pre-wrap;  
+  text-align: justify;     
 }
 
-#t_systems td:first-child {
-    display: table-cell;
-    width:200px;
-    
-}
 #t_systems td {
     border: 0px solid red;
     vertical-align: top;    
@@ -356,4 +361,13 @@ blockquote a:hover{
 blockquote em{
   font-style: italic;
 
+}
+.border {
+    border: 1px solid black;
+} 
+.cat_img {
+    float:left;
+}
+.cat_content {
+    float:left;
 }

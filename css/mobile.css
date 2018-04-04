@@ -8,9 +8,9 @@
 
 @media only screen and (max-width: 800px) {
     .folio {
-           
-           min-height: 0;
-           padding-top: 5px;
+
+        min-height: 0;
+        padding-top: 5px;
     }
     .photo {
         height:200px;
@@ -21,17 +21,17 @@
     .btn{
         font-size: 10px;
     }
-    
+
     .bottombanner {
         width: 75%;
     }
 
-     .maincolumn {
-            float: none;
-            width: 100%;
+    .maincolumn {
+        float: none;
+        width: 100%;
 
     }
-   
+
     .maincolumn_text {
         margin-left: 3%;
     }
@@ -44,8 +44,17 @@
 
 }
 @media only screen and (max-width: 510px) {
+    html p {
+        font-size: 0.8em;
+    }
+    h1 {
+        font-size: 1.1em;
+    }
+    section h1 {
+        font-size: 1em;
+    }    
     .github {
-            width:95%;
+        width:95%;
     }
     .folio {
         width: 100%;
@@ -61,7 +70,7 @@
     }
 
     .navbtn{
-        font-size: 14px;
+        font-size: 1em;
     }
     .navbtn_first {
         border-radius: 0px;
@@ -69,5 +78,19 @@
     .navbtn_last {
         border-radius: 0px;        
     }
-    
+    .resume {
+        padding-left: 10px;
+    }
+    .cat_content {
+        font-size: 0.8em;
+    }
+    .gen_article h1 {
+        font-size:1.2em;
+    }
+    .gen_article h2{
+        font-size: 1.0em;
+    }
+    .gen_article p{
+        font-size: 0.8em;
+    }    
 }

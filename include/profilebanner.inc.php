@@ -11,8 +11,9 @@
                     <p><a class="btn" href="mailto:diego@envigo.net">diego@envigo.net</a></p>
                     <p>Developer, designer, systems and a little else.</p>
                 </div>
-                
+                <!--
                 <div class="photo">
                 <img alt="Diego García Gonzalez"  src="">
                 </div>
+                -->
             </div>

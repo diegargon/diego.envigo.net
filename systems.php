@@ -8,15 +8,14 @@ include("" . $cfg['PATH'] . "/include/head.inc.php");
 
 <div class="blackdiv"></div>
 <div class="wrapper_w100_padding">
-    <h1> Sistemas </h1>
+    <h1> Sistemas y redes </h1>
     <div class="tables_wrapper">
-        <table id="t_systems">
-            <tr>
-                <td>
-                    <img width="200" src="https://diego.envigo.net/systems/img/KernelProgrammingEmbeddedLinux.png" alt='Embedded Systems'/>
-                </td>
-                <td>
-                    <h2>Sistemas embebidos</h2>
+        <section class="border">
+            <div class="cat_img">
+                <img width="200" src="https://diego.envigo.net/systems/img/KernelProgrammingEmbeddedLinux.png" alt='Embedded Systems'/>
+            </div>
+            <div class="cat_content">
+                    <h1>Sistemas embebidos</h1>
                     <ul>                        
                         <li><a>Intro a ESP32 (pronto)</a></li>                             
                         <li><a>Esp12-E y arduino (pronto)</a></li>
@@ -24,23 +23,20 @@ include("" . $cfg['PATH'] . "/include/head.inc.php");
                         <li><a href="articulos/iot.php">Empezando con dispositivos IoT y embebidos</a></li>
                         <li><a href="articulos/OrangePI.php">Intro a OrangePI y firmwares</a></li>                   
                     </ul>                    
+            </div>
+        </section>
 
-                </td>
-        </table>     
-        <table id="t_systems">
-            <tr>
-                <td>
-                    <img width="200" src="https://diego.envigo.net/systems/img/Linux-server.png" alt='redes y administración'/>
-                </td>
-                <td>
-                    <h2>Redes y administración de sistemas</h2>
+        <section class="border">
+            <div class="cat_img">
+                <img width="200" src="https://diego.envigo.net/systems/img/Linux-server.png" alt='redes y administración'/>
+            </div>
+            <div class="cat_content">
+                    <h1>Redes y administración de sistemas</h1>
                     <ul>
                         <li><a href="articulos/qos.php">QoS: Introducción</a></li>                        
                     </ul>                    
-                </td>
-        </table>             
-    </div> 
-</div>
+            </div>
+        </section>
 
 <?php
 include("" . $cfg['PATH'] . "include/profilebanner.inc.php");
