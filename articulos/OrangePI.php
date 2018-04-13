@@ -19,11 +19,12 @@ include("" . $cfg['INC_PATH'] . "/head.inc.php");
             Recientemente he necesitado utilizar una, específicamente una Orange PI Lite, precio muy asequible y incluye WIFI, la única 
             limitación a tener en cuenta dentro de las limitaciones comunes de este tipo de mini ordenadores es que este modelo no cuenta 
             con un puerto ethernet. Tiene un par de inconvenientes más y es que necesita una fuente de alimentación de 5v con 2 amperios 
-            que sea bastante estable si nos puede dar problemas. La otra cosa problemática es una tarjeta micro SD buena, recomiendan una 
-            clase 10 pero personalmente comprobé que algunas clase 4 funciona y otras clase 10 no funcionan, así que toca probar, si no te 
-            arranca es que probablemente sea una de esas dos cosas, personalmente me encontré con dos tarjetas que no arrancaba (clase 4 y 10) 
-            y ningún problema con la fuente de alimentación. Aveces el problema es el cable de alimentación USB, algunos cables son demasiado finos
-            y tienen una caída de voltaje en el extremo pequeña pero significativa provocando problemas debido a la demanda y la poca sección</p>
+            que sea bastante estable si nos puede dar problemas. La otra cosa problemática es una tarjeta micro SD, que debe ser buena, 
+            recomiendan una clase 10 pero personalmente comprobé que algunas clase 4 funciona y otras clase 10 no funcionan, así que toca 
+            probar, si no te  arranca es que probablemente sea una de esas dos cosas, personalmente me encontré con dos tarjetas que no 
+            arrancaba (clase 4 y 10) y ningún problema con la fuente de alimentación. Aveces el problema es el cable de alimentación USB, 
+            algunos cables de transformadores de 5v son demasiado finos y tienen una caída de voltaje en el extremo pequeña pero significativa 
+            provocando problemas debido a la demanda y la poca sección</p>
         <p>
             Sobre tarjetas, hablan bien de las Samsung EVO, yo probé dos y las dos funcionaron. Este modelo también tienen la limitación 
             de un máximo 32GB de capacidad, cosa que no debería ser grave para la mayoría.
